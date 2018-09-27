@@ -1,0 +1,6 @@
+<form>
+  Mot: <input [(ngModel)]="word" type="text" name="word"> <br>
+  <button type="submit" value="Submit" (click)="callApi(word)">Soumettre</button>
+</form>
+
+{{this.result_box}}
