@@ -1,6 +1,13 @@
 <form>
   Mot: <input [(ngModel)]="word" type="text" name="word"> <br>
+  Type de recherche:
+  <select [(ngModel)]="selected" name="selector">
+     <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
+  </select>
+
   <button type="submit" value="Submit" (click)="callApi(word)">Soumettre</button>
 </form>
 
+
+<p>You selected the word :{{word}} and type : {{selected}}</p>
 {{this.result_box}}

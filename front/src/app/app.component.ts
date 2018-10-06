@@ -7,16 +7,25 @@ import { MotsApiService } from './mots/mots-api.service';
   styleUrls: ['./app.component.css']
 })
 
+
+
 export class AppComponent implements OnInit, OnDestroy {
   title = 'app';
   result_box: any;
   word: string;
+  selected : string;
+  typeSearch = ["type1", "type2", "type3", "type4", "type5",
+         "type6", "type7", "type8", "type9"];
+
 
   constructor(private motsApi: MotsApiService) {
   }
 
   ngOnInit() {
+    this.selected="type2";
   }
+
+
 
   callApi(word) {
     // console.log(word)
@@ -24,9 +33,11 @@ export class AppComponent implements OnInit, OnDestroy {
       .getMots(word)
       .subscribe(res => {
         // console.log(res)
+
         this.result_box = res;
       });
   }
+
 
   ngOnDestroy() {
     // this.result_box.unsubscribe();
