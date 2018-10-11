@@ -1,68 +1,121 @@
 #!flask/bin/python
 from flask import Flask
 from flask_cors import CORS
+from flask import jsonify
 import urllib2
 from bs4 import BeautifulSoup
 from lxml import html
 import time
+import re
+import os
+import json
 
 app = Flask(__name__)
 CORS(app)
 
-# Retourne le html du rezo-dump jdm
+# Simply return a list of the file in cache
+def load_cache():
+	all_files_in_cache = os.listdir("cache/")
+	return all_files_in_cache
+
+# Return a file's content from the cache
+def cache_out(word_query):
+	file_in_cache = open("cache/" + word_query, 'r')
+	dump_str = file_in_cache.read()
+	file_in_cache.close()
+	return dump_str
+
+# Insert a file in the cache
+def cache_in(word_query, dump_str):
+	new_file_in_cache = open("cache/" + word_query, 'w')
+	new_file_in_cache.write(dump_str.encode("utf-8"))
+	new_file_in_cache.close()
+
+# Return the dump from jdm rezo-dump
 def get_rezo_dump(query):
-	# l'url du reseau dump est concat avec la query
+	# If the query contains multiple words (eg: whitespaces) we need to process it
+	# by replacing whitespaces by + so the url will be valid
+	if " " in query:
+		query = query.replace(" ", "+")
+	# We collect the html from this url
 	url = "http://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + query + "&rel="
 	page = urllib2.urlopen(url)
 	soup = BeautifulSoup(page, 'html.parser')
-	# dump_str correspond au html contenu dans les balise <CODE>
-	dump_str = str(soup.find_all('code'))
+	# Only the content under <CODE> tags are needed
+	dump_str = soup.find('code').getText()
 	return dump_str
 
-# Formate le html pour renvoyer une belle structure
-def prepare_json(dump_str):
-	# the JSON result
+def cook_json(dump_str, word_query):
+	# // les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+	nodes_types = []
+	# // les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp'
+	rels_types = []
+	# // les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name'
+	noeuds = []
+	# // les relations sortantes : r;rid;node1;node2;type;w
+	relations_sortantes = []
+	# // les relations entrantes : r;rid;node1;node2;type;w
+	relations_entrantes = []
+
+	# Split all the dump_str on every lines
+	splited_dump = dump_str.splitlines()
+
+	"""Every lines should match with a pattern :
+	any integers followed by a . (eg: "1.") then it's a definition
+	a single whitespace (eg: " ") then it's an example of the previous definition
+	nt; (eg: "nt;") then it's a node type
+	e; (eg: "e;") then it's a node
+	rt; (eg: "rt;") then it's a relation type
+	r; (eg: "r;") then it's a relation : we will have to deal with 2 cases (relations sortantes et entrantes)"""
+	relation_sortantes = True
+	for line in splited_dump:
+		if line.startswith("nt;"):
+			# print("NT")
+			nodes_types.append(line)
+		if line.startswith("e;"):
+			# print("E")
+			noeuds.append(line)
+		if line.startswith("rt;"):
+			# print("RT")
+			rels_types.append(line)
+		if line.startswith("r;") and relation_sortantes:
+			# print("R_S")
+			relations_sortantes.append(line)
+		if line.startswith("r;") and not relation_sortantes:
+			# print("R_E")
+			relations_entrantes.append(line)
+		if line.startswith(" "):
+			print("DEF_EXEMPLE")
+		if line:
+			if line[0].isdigit():
+				print("DEF")
+		if line.startswith("// les relations entrantes"):
+			relation_sortantes = False
+
+	# We start building a dict object from our data
 	data = {}
-	soup = BeautifulSoup(dump_str, 'html.parser')
-	# Prepare le block definition
-	def_block =  str(soup.find_all('def'))
-	# On veut split sur les "<br>" et "<br/>" alors on remplace pour avoir a faire un seul split
-	def_block = def_block.replace("<br>", "<br/>")
-	splited = def_block.split("<br/>")
+	data['title'] = word_query
 
-	indice_def = 0
-	indice_exemple = 0
-	for elem in splited:
-		# Si on a un "n" en troisieme position de la string alors c'est une definition
-		if(elem.startswith("n", 2, 3)):
-			indice_exemple = 0
-			print "DEF" + str(indice_def)
-			indice_def+=1
-			print elem + "\n"
-		# Sinon si le n est en quatrieme poisiton alors c'est un exemple donne a la definition precedente
-		elif(elem.startswith("n", 3, 4)):
-			print "EXEMPLE" + str(indice_exemple)
-			indice_exemple += 1
-			print elem + "\n"
+	return data
 
-	return def_block
-
-
-
-
-# Recupere le contenu du rezo-dump, le prepare avec soin et retourne a angular
 @app.route('/mots/<word_query>', methods=['GET'])
 def render_content(word_query):
-	# demare un timer
-	t_start = time.time()
-	# get le html et le prepare
-	dump_str = get_rezo_dump(word_query)
-	result = prepare_json(dump_str)
-	# stop le timer et print le temps d'execution
-	t_end = time.time()
-	print("TIMER : " + str(t_end - t_start))
-	return result
+	# When we query this road, we first want to load the cache
+	cache = load_cache()
+	# Then we will check the cache to find the query
+	if word_query in cache:
+			result = cook_json(cache_out(word_query), word_query)
+			print("RETURNED FROM THE cache")
+			return jsonify(result)
+
+	# If we don't find the query result in the cache, we will find it on the jdm rezo-dump
+	else:
+		dump_str = get_rezo_dump(word_query)
+		cache_in(word_query, dump_str) # We save the dump in our cache
+		result = cook_json(dump_str, word_query)
+		print("RETURNED FROM THE REZO-DUMP")
+		return jsonify(result)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+	app.run(debug=True)
