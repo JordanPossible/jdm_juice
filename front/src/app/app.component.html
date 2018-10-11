@@ -1,28 +1,23 @@
-<div class="row">
-  <div class="col-sm-1"></div>
-  <div class="col-sm-4">
-    <img src="assets/img/jus.png" alt="juice" >
-  </div>
-</div>
-<div class="row search-word-bar">
-    <div class="col-sm-8">
-      <form class="form-inline waves-light" mdbWavesEffect>
-        <div class="md-form mt-0 col-sm-4">
-          <input class="form-control mr-sm-2" type="text" [(ngModel)]="word" name="word" class="form-control" placeholder="Search">
+<mdb-card>
+  <mdb-card-header class="primary-color white-text">
+    <h4>Recherche</h4>
+  </mdb-card-header>
+  <mdb-card-body>
+    <form class="form-inline waves-light" mdbWavesEffect>
+      <div class="row">
+        <div class="col-sm-2 ">
+          <img src="assets/img/jus.png" alt="juice" >
         </div>
-        <select [(ngModel)]="selected" name="selector" class="custom-select">
-           <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
-        </select>
-        <button mdbBtn type="submit" value="Submit" (click)="callApi(word)" color="success" class="waves-light" mdbWavesEffect>Soumettre</button>
-      </form>
-    </div>
-    <div class="col-sm-4">
-      <p>You selected the word :{{word}} and type : {{selected}}</p>
-      {{this.result_box}}
-    </div>
-</div>
-
-
-
-
-<!-- Search form -->
+        <div class="col-sm-5 ">
+          <input class="form-control" type="text" [(ngModel)]="word" name="word" class="form-control" placeholder="Search">
+        </div>
+        <div class="col-sm-2 ">
+          <select [(ngModel)]="selected" name="selector" class="custom-select">
+            <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
+          </select>
+        </div>
+        <div class="col-sm-2 ml-auto"><button mdbBtn type="submit" value="Submit" (click)="callApi(word)" color="success" class="waves-light" mdbWavesEffect>Soumettre</button></div>
+      </div>
+    </form>
+  </mdb-card-body>
+</mdb-card>
