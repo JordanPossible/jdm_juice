@@ -1,10 +1,11 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { MotsApiService } from './mots/mots-api.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 
 
@@ -17,8 +18,8 @@ export class AppComponent implements OnInit, OnDestroy {
   typeSearch = ["type1", "type2", "type3", "type4", "type5",
          "type6", "type7", "type8", "type9"];
 
-
   constructor(private motsApi: MotsApiService) {
+
   }
 
   ngOnInit() {
@@ -42,4 +43,7 @@ export class AppComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     // this.result_box.unsubscribe();
   }
+
+
+
 }

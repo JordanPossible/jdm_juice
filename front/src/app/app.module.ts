@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 // my stuff
 import { AppComponent } from './app.component';
 import {MotsApiService} from './mots/mots-api.service';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import {MotsApiService} from './mots/mots-api.service';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [MotsApiService],
   bootstrap: [AppComponent]
