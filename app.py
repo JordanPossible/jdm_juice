@@ -70,8 +70,12 @@ def cook_json(dump_str, word_query):
 	relation_sortantes = True
 	for line in splited_dump:
 		if line.startswith("nt;"):
-			# print("NT")
-			nodes_types.append(line)
+			# We add a dico to the nodes_types list
+			# where the key is the ntid (eg: node type id) and the value is the ntname (eg: node type name)
+			node_type_dico = {}
+			node_type_splited = line.split(";")
+			node_type_dico[node_type_splited[1]] = [node_type_splited[2]]
+			nodes_types.append(node_type_dico)
 		if line.startswith("e;"):
 			# print("E")
 			noeuds.append(line)
