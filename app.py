@@ -46,16 +46,49 @@ def get_rezo_dump(query):
 	return dump_str
 
 def cook_json(dump_str, word_query):
-	# // les types de noeuds (Nodes Types) : nt;ntid;'ntname'
-	nodes_types = []
-	# // les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp'
-	rels_types = []
-	# // les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name'
-	noeuds = []
-	# // les relations sortantes : r;rid;node1;node2;type;w
-	relations_sortantes = []
-	# // les relations entrantes : r;rid;node1;node2;type;w
-	relations_entrantes = []
+	"""// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+	Our nodes_types_dico will be structured as follow :
+	For every node_type => 1 entry where :
+			The key is the ntid (eg: node type id) and the value is the ntname (eg: node type name)"""
+	nodes_types_dico = {}
+
+	"""// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp'
+	Our rels_types_dico will be structured as follow :
+	For every rel_type => 1 entry where :
+			The key is the rtid (eg: relation type id) and the value is the trname (eg: type relation name)"""
+	rels_types_dico = {}
+
+	"""// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name'
+	Our nodes_dico will be structured as follow :
+	For every nodes => 1 entry where :
+		The key is the eid (eg: node id) and the value is a dictionary where :
+			The key [name] return the name value
+			The key [type] return the type value
+			The key [w] return the weight value"""
+	nodes_dico = {}
+
+	"""// les relations sortantes : r;rid;node1;node2;type;w
+	Our rels_out_dico will be structured as follow :
+	For every rels_out => 1 entry where :
+		The key is the rid (eg: relation id) and the value is a dictionary where :
+			The key [node1] return the node1 value (the node eid)
+			The key [node2] return the node2 value (the node eid)
+			The key [type] return the relation type value
+			The key [w] return the relation weight value"""
+	rels_out_dico = {}
+
+	""" // les relations entrantes : r;rid;node1;node2;type;w
+	Our rels_in_dico will be structured as follow :
+	For every rels_in => 1 entry where :
+		The key is the rid (eg: relation id) and the value is a dictionary where :
+			The key [node1] return the node1 value (the node eid)
+			The key [node2] return the node2 value (the node eid)
+			The key [type] return the relation type value
+			The key [w] return the relation weight value"""
+	rels_in_dico = {}
+
+	definition = []
+	definition_ex = []
 
 	# Split all the dump_str on every lines
 	splited_dump = dump_str.splitlines()
@@ -70,35 +103,108 @@ def cook_json(dump_str, word_query):
 	relation_sortantes = True
 	for line in splited_dump:
 		if line.startswith("nt;"):
-			# We add a dico to the nodes_types list
+			# We add a new entry in our nodes_types_dico
 			# where the key is the ntid (eg: node type id) and the value is the ntname (eg: node type name)
-			node_type_dico = {}
 			node_type_splited = line.split(";")
-			node_type_dico[node_type_splited[1]] = [node_type_splited[2]]
-			nodes_types.append(node_type_dico)
-		if line.startswith("e;"):
-			# print("E")
-			noeuds.append(line)
+			nodes_types_dico[node_type_splited[1]] = [node_type_splited[2]]
+
 		if line.startswith("rt;"):
-			# print("RT")
-			rels_types.append(line)
+			# We add a new entry in our rels_types_dico
+			# where the key is the rtid (eg: relation type id) and the value is the trname (eg: type relation name)
+			rel_type_splited = line.split(";")
+			rels_types_dico[rel_type_splited[1]] = [rel_type_splited[2]]
+
+		if line.startswith("e;"):
+			# We create a temporary dictionary where
+				# The key [name] return the node name value
+				# The key [type] return the node type value
+				# The key [w] return the node weight value
+			# Then we add a new entry in our nodes_dico
+			# Where the key is the eid (eg: node id) and the value is the temporary dictionary
+			node_splited = line.split(";")
+			tmp_dict = {}
+			tmp_dict['name'] = node_splited[2]
+			tmp_dict['type'] = node_splited[3]
+			tmp_dict['w'] = node_splited[4]
+			nodes_dico[node_splited[1]] = tmp_dict
+
 		if line.startswith("r;") and relation_sortantes:
-			# print("R_S")
-			relations_sortantes.append(line)
+			# We create a temporary dictionary where
+				# The key [node1] return the node1 value (the node eid)
+				# The key [node2] return the node2 value (the node eid)
+				# The key [type] return the relation type value
+				# The key [w] return the relation weight value
+			# Then we add a new entry in our rels_out_dico
+			# Where the key is the rid (eg: relation id) and the value is the temporary dictionary
+			rel_splited = line.split(";")
+			tmp_dict = {}
+			tmp_dict['node1'] = rel_splited[2]
+			tmp_dict['node2'] = rel_splited[3]
+			tmp_dict['type'] = rel_splited[4]
+			# tmp_dict['w'] = node_splited[5]
+			rels_out_dico[node_splited[1]] = tmp_dict
+
 		if line.startswith("r;") and not relation_sortantes:
-			# print("R_E")
-			relations_entrantes.append(line)
+			# We create a temporary dictionary where
+				# The key [node1] return the node1 value (the node eid)
+				# The key [node2] return the node2 value (the node eid)
+				# The key [type] return the relation type value
+				# The key [w] return the relation weight value
+			# Then we add a new entry in our rels_in_dico
+			# Where the key is the rid (eg: relation id) and the value is the temporary dictionary
+			rel_splited = line.split(";")
+			tmp_dict = {}
+			tmp_dict['node1'] = rel_splited[2]
+			tmp_dict['node2'] = rel_splited[3]
+			tmp_dict['type'] = rel_splited[4]
+			# tmp_dict['w'] = node_splited[5]
+			rels_in_dico[node_splited[1]] = tmp_dict
+
 		if line.startswith(" "):
-			print("DEF_EXEMPLE")
+		# SALE
+			definition_ex.append(line)
+
 		if line:
+		# SALE
 			if line[0].isdigit():
-				print("DEF")
+				definition.append(line)
+
 		if line.startswith("// les relations entrantes"):
+			# The relations found will be in for now
 			relation_sortantes = False
 
-	# We start building a dict object from our data
+	# Enhance our nodes_dict by providing a new entry nodes_dico['type_name']
+	# which return a string value corresponding to the type's name of the node
+	for nodes in nodes_dico:
+		nodes_dico[nodes]['type_name'] = nodes_types_dico[nodes_dico[nodes]['type']]
+		print(nodes_dico[nodes])
+	# Enhance our rels_out_dico by providing a few new entries :
+		# rels_out_dico['node1_object'] which return the node1 entry from the nodes_dico
+		# rels_out_dico['node2_object'] which return the node2 entry from the nodes_dico
+		# rels_out_dico['type_name'] which return a string value corresponding to the type's name of the relation
+	for rels in rels_out_dico:
+		rels_out_dico[rels]['node1_object'] = nodes_dico[rels_out_dico[rels]['node1']]
+		rels_out_dico[rels]['node2_object'] = nodes_dico[rels_out_dico[rels]['node2']]
+		rels_out_dico[rels]['type_name'] = rels_types_dico[rels_out_dico[rels]['type']]
+	# Enhance our rels_in_dico by providing a few new entries :
+		# rels_in_dico['node1_object'] which return the node1 entry from the nodes_dico
+		# rels_in_dico['node2_object'] which return the node2 entry from the nodes_dico
+		# rels_in_dico['type_name'] which return a string value corresponding to the type's name of the relation
+	for rels in rels_in_dico:
+		rels_in_dico[rels]['node1_object'] = nodes_dico[rels_in_dico[rels]['node1']]
+		rels_in_dico[rels]['node2_object'] = nodes_dico[rels_in_dico[rels]['node2']]
+		rels_in_dico[rels]['type_name'] = rels_types_dico[rels_in_dico[rels]['type']]
+
+	# We build a data dict from all our dictionary
 	data = {}
 	data['title'] = word_query
+	data['nodes_types_dico'] = nodes_types_dico
+	data['rels_types_dico'] = rels_types_dico
+	data['nodes_dico'] = nodes_dico
+	data['rels_out_dico'] = rels_out_dico
+	data['rels_in_dico'] = rels_in_dico
+	data['definition'] = definition
+	data['definition_ex'] = definition_ex
 
 	return data
 
