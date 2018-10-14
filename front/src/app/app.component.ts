@@ -22,6 +22,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   }
 
+
   ngOnInit() {
     this.selected="type2";
   }
