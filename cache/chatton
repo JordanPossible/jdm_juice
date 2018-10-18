@@ -1,0 +1,62 @@
+
+// DUMP pour le terme 'chatton' (eid=2365162)
+
+
+
+(Vieilli) (Désuet) Variante de chaton.
+
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;2365162;'chatton';1;0
+e;57444;'chaton';1;666
+e;239128;'_COM';36;50
+e;171870;'Nom:';4;50
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;2578964;'Langage:vieilli';18;0
+e;251716;'_INFO-MONOSEMIC';36;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;4201019;'dbnary:fra:__ws_1_chatton__nom__1';444;0
+e;4467316;'bn:01696589n';444;0
+e;2983124;'_SW';36;50
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;71;'r_variante';'variante';Variantes du termes cible. Par exemple, yaourt, yahourt, ou encore évènement, événement.
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+
+r;61161076;2365162;57444;0;65
+r;52900533;2365162;239128;0;1000000
+r;52091251;2365162;171870;4;45
+r;90354605;2365162;3576104;18;28
+r;89369300;2365162;3575927;18;35
+r;52637633;2365162;2578964;18;40
+r;96186213;2365162;251716;36;28
+r;50420090;2365162;273221;36;40
+r;61455179;2365162;57444;71;48
+r;94557429;2365162;4201019;444;1
+r;99820258;2365162;4467316;444;31
+r;74008022;2365162;2983124;555;126
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+
+
+// END

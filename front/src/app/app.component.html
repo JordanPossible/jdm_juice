@@ -1,39 +1,8 @@
+<app-head></app-head>
+<app-definition></app-definition>
+<app-stats></app-stats>
+<app-types></app-types>
+<!-- Affiche le json retourner par le server avec la pipeline json de angular -->
+<!-- https://angular.io/api/common/JsonPipe -->
 
-
-            <!--<div class="col-sm-2 ">
-                <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
-                <select [(ngModel)]="selected" name="selector" class="custom-select">
-              </select>
-            </div> !-->
-
-
-                        <!--<div class="col-sm-2 ">
-                          <select [(ngModel)]="selected" name="selector" class="custom-select">
-                            <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
-                          </select>
-                        </div> !-->
-
-
-              <nav class="navbar navbar-expand-lg navbar-dark black mb-4">
-
-              <!-- Navbar brand -->
-              <a class="navbar-brand" href="#"><img src="assets/img/jus.png" alt="juice" ></a>
-
-              <!-- Collapsible content -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <form class="form-inline ml-auto">
-                  <div class="md-form my-0">
-                    <input class="form-control" placeholder="Mot" aria-label="Search" type="text" [(ngModel)]="word" name="word">
-                  </div>
-                  <button value="Submit" (click)="callApi(word)" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Soumettre</button>
-                </form>
-
-              </div>
-            </nav>
-
-
-            <!-- Affiche le json retourner par le server avec la pipeline json de angular -->
-            <!-- https://angular.io/api/common/JsonPipe -->
-
-            {{ result_box | json }}
+{{ result_box | json }}

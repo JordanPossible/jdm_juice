@@ -1,0 +1,66 @@
+
+// DUMP pour le terme 'dz' (eid=147852)
+
+
+
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;666;'n_AKI'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;147852;'dz';1;50
+e;179046;'DZ';1;50
+e;239128;'_COM';36;50
+e;146899;'Abr:';4;50
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;241794;'_POL-NEUTRE';36;50
+e;223173;'_POL-POS';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;2585997;'_INFO-CNRTL-NO';36;50
+e;254876;'_POL-POS_PC';36;50
+e;2983124;'_SW';36;50
+e;230405;'Jean-Claude Convenant';666;50
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;666;'r_aki';'r_aki';(TOTAKI) equivalent pour TOTAKI de l'association libre
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+
+r;14473882;147852;179046;0;27
+r;24111629;147852;239128;0;1000000
+r;19788;147852;146899;4;51
+r;89966237;147852;3575927;18;29
+r;90822811;147852;3576104;18;34
+r;297112;147852;147852;19;56
+r;25683669;147852;241794;36;117
+r;22343425;147852;223173;36;290
+r;26974118;147852;254877;36;29
+r;292277368;147852;273221;36;25
+r;72932988;147852;2585997;36;59
+r;26974117;147852;254876;36;71
+r;74055477;147852;2983124;555;320
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+
+r;14473881;179046;147852;0;29
+r;297112;147852;147852;19;56
+r;1800832;230405;147852;666;1
+
+// END
