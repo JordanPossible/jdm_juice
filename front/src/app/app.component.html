@@ -1,28 +1,39 @@
-<mdb-card>
-  <mdb-card-header class="primary-color white-text">
-    <h4>Recherche</h4>
-  </mdb-card-header>
-  <mdb-card-body>
-    <form class="form-inline waves-light" mdbWavesEffect>
-      <div class="row">
-        <div class="col-sm-2 ">
-          <img src="assets/img/jus.png" alt="juice" >
-        </div>
-        <div class="col-sm-5 ">
-          <input class="form-control" type="text" [(ngModel)]="word" name="word" class="form-control" placeholder="Search">
-        </div>
-        <div class="col-sm-2 ">
-          <select [(ngModel)]="selected" name="selector" class="custom-select">
-            <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
-          </select>
-        </div>
-        <div class="col-sm-2 ml-auto"><button mdbBtn type="submit" value="Submit" (click)="callApi(word)" color="success" class="waves-light" mdbWavesEffect>Soumettre</button></div>
-      </div>
-    </form>
-  </mdb-card-body>
-</mdb-card>
 
 
-<!-- Affiche le json retourner par le server avec la pipeline json de angular -->
-<!-- https://angular.io/api/common/JsonPipe -->
-{{ result_box | json }}
+            <!--<div class="col-sm-2 ">
+                <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
+                <select [(ngModel)]="selected" name="selector" class="custom-select">
+              </select>
+            </div> !-->
+
+
+                        <!--<div class="col-sm-2 ">
+                          <select [(ngModel)]="selected" name="selector" class="custom-select">
+                            <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
+                          </select>
+                        </div> !-->
+
+
+              <nav class="navbar navbar-expand-lg navbar-dark black mb-4">
+
+              <!-- Navbar brand -->
+              <a class="navbar-brand" href="#"><img src="assets/img/jus.png" alt="juice" ></a>
+
+              <!-- Collapsible content -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="form-inline ml-auto">
+                  <div class="md-form my-0">
+                    <input class="form-control" placeholder="Mot" aria-label="Search" type="text" [(ngModel)]="word" name="word">
+                  </div>
+                  <button value="Submit" (click)="callApi(word)" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Soumettre</button>
+                </form>
+
+              </div>
+            </nav>
+
+
+            <!-- Affiche le json retourner par le server avec la pipeline json de angular -->
+            <!-- https://angular.io/api/common/JsonPipe -->
+
+            {{ result_box | json }}
