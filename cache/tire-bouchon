@@ -1,0 +1,446 @@
+
+// DUMP pour le terme 'tire-bouchon' (eid=19998)
+
+
+
+1. Sorte de vis de fer ou d'acier munie d'un petit manche ou d'un anneau et dont on se sert pour tirer les bouchons des bouteilles. 
+ Dans le désert tu trouves un macchabée en gorge que tu ne peux pas identifier : on lui fouille les poches. Quand on trouve un ouvre-boîtes, c'est un British, et quand c'est un tire-bouchon, c'est un Français.    
+ (Michel Audiard, Un taxi pour Tobrouk, 1961)   
+ Elles parlent à ceux dont le sang est poussière,la verge, un tire-bouchon philanthropiqueet les couilles, deux pauvres lampionsramassés dans les poubelles du libéralisme,un lendemain de quatorze juillet.    
+ (René Crevel, Le Clavecin de Diderot, 1932)  
+2. Un tire-bouchon ou tirebouchon , est un ustensile utilisé pour tirer le bouchon (en liège naturel ou reconstitué ou en matériau synthétique) d'une bouteille (souvent de vin, mais aussi de bière), ce qui en fait l'outil premier du sommelier.
+3. Le tire-bouchon (parfois désigné par le terme anglais Corkscrew) est le nom d'une inversion simple que l'on trouve sur les montagnes russes en métal.
+
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;8;'n_chunk'
+nt;9;'n_question'
+nt;10;'n_relation'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+nt;666;'n_AKI'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;19998;'tire-bouchon';1;68
+e;214848;'cochon>17559';1;74;'cochon>animal'
+e;82877;'ouvre-bouteille';1;58
+e;213734;'bouchon>117423';1;20;'bouchon>bouteille'
+e;142212;'vrille';1;58
+e;73685;'sports';1;492
+e;45296;'extraction';1;286
+e;109527;'chose';1;848
+e;119993;'décapsuleur';1;68
+e;130949;'vaisselle';1;916
+e;30843;'outil';1;1510
+e;61407;'coiffure';1;916
+e;121002;'ustensile';1;450
+e;16033;'cuisine';1;10600
+e;6605;'instrument';1;1706
+e;125506;'électricité';1;1906
+e;237;'objet';1;1854
+e;92847;'cochon';1;870
+e;213268;'tire bouchon';666;50
+e;121129;'bouchon';1;588
+e;15241;'tire';1;106
+e;239128;'_COM';36;50
+e;2586627;'Gender:Mas';4;0
+e;2586629;'Number:Sing';4;0
+e;146885;'Nom:Mas+SG';4;50
+e;171870;'Nom:';4;50
+e;152067;'ustensile de cuisine';1;174
+e;6427104;'oesophage en tire-bouchon';1;0
+e;10903025;'balle tire-bouchon';777;0
+e;1732081;'en tire-bouchon';1;0
+e;1523444;'queue en tire-bouchon';1;0
+e;151553;'_FL:0';6;50
+e;152842;'_FL:25';6;50
+e;52232;'tiroir';1;590
+e;247812;'non vivant';1;58
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;27610;'décapsuler';1;66
+e;195215;'débouchonner';1;50
+e;3605;'déboucher';1;160
+e;38673;'tourner';1;996
+e;124550;'tirer';1;2086
+e;54271;'ouvrir';1;1254
+e;102345;'plaisir';1;3198
+e;57221;'joie';1;3706
+e;37298;'amour';1;6776
+e;103405;'indifférence';1;464
+e;91691;'surprise';1;1064
+e;14330;'satisfaction';1;516
+e;28453;'bonheur';1;2094
+e;254878;'_POL-NEG_PC';36;50
+e;223172;'_POL-NEG';36;50
+e;276096;'_INFO-WIKI-YES';36;50
+e;251716;'_INFO-MONOSEMIC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;162763;'_INFO-SEM-THING-CONCRETE';36;1238
+e;191667;'_INFO-SEM-THING-ARTEFACT';36;242
+e;2585996;'_INFO-CNRTL-YES';36;50
+e;254876;'_POL-POS_PC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;223173;'_POL-POS';36;50
+e;578040;'tirebouchon';777;0
+e;1760781;':r1604415';10;0
+e;1760780;':r27996343';10;0
+e;1760782;':r1604414';10;0
+e;1760783;':r27996342';10;0
+e;1147162;':r2878249';10;0
+e;3935770;'dbnary:fra:__ws_1_tire-bouchon__nom__1';444;0
+e;3228593;'wiki:@';444;0
+e;2983124;'_SW';36;50
+e;7608;'vis';1;600
+e;87714;'hélice';1;124
+e;117423;'bouteille';1;2192
+e;117787;'poignée';1;562
+e;25437;'tige';1;872
+e;81121;'sommelier';1;116
+e;143131;'Vis';1;50
+e;136356;'Grande-Bretagne';1;100
+e;172944;'Anglais';1;20
+e;145811;'Spirale';1;50
+e;144604;'spirale';1;182
+e;85167;'pointes';1;62
+e;219374;'Columbo';1;50
+e;403219;'Bouteille';1;50
+e;115126;'mèche';1;210
+e;126976;'vissage';1;64
+e;146553;'Londres';1;404
+e;2928174;'Clou';1;0
+e;2238;'Charles de Gaulle';1;82
+e;5881365;'Sommelier';1;0
+e;10866445;'Magic Mountain';777;0
+e;10384339;'Six Flags Fiesta Texas';777;0
+e;10094763;'Arrow Dynamics';777;0
+e;10996530;'montagnes russes assises';777;0
+e;10036044;'Intamin AG';777;0
+e;10866315;'Cedar Point';777;0
+e;10866919;'Canobie Lake Park';777;0
+e;3492159;'bouchon>46157';1;0;'bouchon>enseigne'
+e;3492171;'bouchon>62165';1;0;'bouchon>rugby'
+e;3492177;'bouchon>143249';1;0;'bouchon>paille'
+e;3492156;'bouchon>93860';1;0;'bouchon>cochonnet'
+e;3492179;'bouchon>49889';1;0;'bouchon>adaptateur'
+e;3492180;'bouchon>102206';1;0;'bouchon>médecine'
+e;3492178;'bouchon>138930';1;0;'bouchon>tampon'
+e;3492172;'bouchon>134886';1;0;'bouchon>plomberie'
+e;1442114;'bouchon>1442113';1;0;'bouchon>bouchée de viande'
+e;213733;'bouchon>79954';1;2;'bouchon>restaurant'
+e;213732;'bouchon>37676';1;50;'bouchon>flotteur'
+e;213731;'bouchon>65971';1;68;'bouchon>embouteillage'
+e;2092510;'tire-bouchonne';2;0
+e;2092552;'tire-bouchons';2;0
+e;156689;'::>14:117423>29:54271>16';9;50;'Avec quoi pourrait-on ouvrir une bouteille ?'
+e;326627;'::>14:117423>29:54271';8;50;'ouvrir [objet] bouteille'
+e;199888;'être bouché';1;56
+e;262583;'être bouché>14523';1;50;'être bouché>obstrué'
+e;11123017;'être bouché>14523>89628';1;0;'être bouché>obstrué>récipient'
+e;71431;'limonadier';1;50
+e;26982;'Aubrac';1;54
+e;131110;'service de table';1;54
+e;275541;'limonadiers';777;50
+e;151546;'couteau suisse';1;88
+e;267619;'oenotourisme';1;50
+e;282680;'tourisme vitivinicole et oenologique';777;50
+e;267621;'tourisme vitivinicole';1;50
+e;246794;'Angry Birds';666;50
+e;266698;'Parc Astérix';1;50
+e;88251;'gaucherie';1;162
+e;50733;'serveur';1;852
+e;16059;'serveuse';1;388
+e;43865;'gaucher';1;122
+e;48706;'corkscrew';1;50
+e;152279;'main gauche';1;138
+e;139390;'Gaucher';1;50
+e;232267;'aubrac';1;4
+e;312172;'mèche de mise à feu';777;50
+e;312173;'Mèches';777;50
+e;421804;'mèches';1;52
+e;414964;'Tire';1;50
+e;1114;'couteaux';1;66
+e;40921;'tatou';1;50
+e;144267;'canne';1;364
+e;5895179;'Le Creuset';777;0
+e;5900764;'musée de la vigne et du vin';777;0
+e;1157982;'The Incredible Hulk';777;0
+e;10879324;'circuit de Laguna Seca';777;0
+e;10879325;'Laguna Seca';777;0
+e;10879326;'Mazda Raceway Laguna Seca';777;0
+e;11378070;'WeatherTech Raceway Laguna Seca';777;0
+e;11391307;'SS 433';777;0
+e;11406953;'Chinese Fireball';777;0
+e;11406955;'Hungarian Horntail';777;0
+e;11406956;'Dragon Challenge';777;0
+e;11406957;'Dueling Dragons';777;0
+e;14507;'Cylon';1;50
+e;410241;'Human';1;50
+e;166674;'Battlestar Galactica';1;90
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;5;'r_syn';'synonyme';Il est demandé d'énumérer les synonymes ou quasi-synonymes de ce terme.
+rt;6;'r_isa';'générique';Il est demandé d'énumérer les GENERIQUES/hyperonymes du terme. Par exemple, 'animal' et 'mammifère' sont des génériques de 'chat'.
+rt;8;'r_hypo';'spécifique';Il est demandé d'énumérer des SPECIFIQUES/hyponymes du terme. Par exemple, 'mouche', 'abeille', 'guêpe' pour 'insecte'.
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;14;'r_patient';'action>patient';Le patient (qu'on appelle aussi l'objet) est l'entité qui subit l'action. Par exemple dans - Le chat mange la souris -, le patient est la souris. Des patients typiques de manger peuvent être 'viande', 'légume', 'pain', ...
+rt;15;'r_lieu';'chose>lieu';Il est demandé d'énumérer les LIEUX typiques où peut se trouver le terme/objet en question.
+rt;16;'r_instr';'action>instrument';L'instrument est l'objet avec lequel on fait l'action. Dans - Il mange sa salade avec une fourchette -, fourchette est l'instrument. Des instruments typiques de 'tuer' peuvent être 'arme', 'pistolet', 'poison', ...
+rt;17;'r_carac';'caractéristique';Pour un terme donné, souvent un objet, il est demandé d'en énumérer les CARACtéristiques (adjectifs) possibles/typiques. Par exemple, 'liquide', 'froide', 'chaude', pour 'eau'.
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;23;'r_carac-1';'caractéristique-1';Quels sont les objets (des noms) possédant typiquement/possiblement la caractérisque suivante ? Par exemple, 'soleil', 'feu', pour 'chaud'.
+rt;25;'r_instr-1';'instrument>action';L'instrument est l'objet avec lequel on fait l'action. Dans - Il mange sa salade avec une fourchette -, fourchette est l'instrument. On demande ici, ce qu'on peut faire avec un instrument donné...
+rt;27;'r_domain-1';'domaine-1';inverse de r_domain : à un domaine, on associe des termes
+rt;28;'r_lieu-1';'lieu>chose';A partir d'un lieu, il est demandé d'énumérer ce qui peut typiquement s'y trouver.
+rt;32;'r_sentiment';'sentiment';Pour un terme donné, évoquer des mots liés à des SENTIMENTS ou des EMOTIONS que vous pourriez associer à ce terme. Par exemple, la joie, le plaisir, le dégoût, la peur, la haine, l'amour, l'indifférence, l'envie, avoir peur, horrible, etc.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;56;'r_against-1';'a comme opposition';Inverse de r_against (s'oppose à) - a comme opposition active (S'OPPOSE/COMBAT/EMPECHE). Par exemple, une bactérie à comme opposition antibiotique.
+rt;71;'r_variante';'variante';Variantes du termes cible. Par exemple, yaourt, yahourt, ou encore évènement, événement.
+rt;128;'r_node2relnode';'r_node2relnode';Relation entre un noeud (quelconque) et un noeud de relation (type = 10) - permet de rendre le graphe connexe même avec les annotations de relations
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;666;'r_aki';'r_aki';(TOTAKI) equivalent pour TOTAKI de l'association libre
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+rt;999;'r_inhib';'r_inhib';relation d'inhibition, le terme inhibe les termes suivants... ce terme a tendance à exclure le terme associé.
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+
+r;24930361;19998;214848;0;1
+r;1022771;19998;82877;0;24
+r;1538442;19998;213734;0;26
+r;12258042;19998;142212;0;29
+r;1348497;19998;73685;0;30
+r;1348500;19998;45296;0;30
+r;27997071;19998;109527;0;32
+r;1022772;19998;119993;0;35
+r;1348499;19998;130949;0;38
+r;27997069;19998;30843;0;39
+r;1348498;19998;61407;0;41
+r;9666861;19998;121002;0;41
+r;15351025;19998;16033;0;41
+r;9666863;19998;6605;0;42
+r;15449445;19998;125506;0;42
+r;9798990;19998;237;0;56
+r;3117667;19998;92847;0;58
+r;11875412;19998;213268;0;122
+r;11875410;19998;121129;0;125
+r;11875408;19998;15241;0;129
+r;24006408;19998;239128;0;1000000
+r;1604416;19998;16033;3;32
+r;438562;19998;125506;3;41
+r;54142873;19998;2586627;4;45
+r;54181978;19998;2586629;4;45
+r;57060;19998;146885;4;52
+r;544777;19998;171870;4;55
+r;678648;19998;142212;5;78
+r;77374246;19998;152067;6;1
+r;2878249;19998;237;6;54
+r;27996342;19998;109527;6;55
+r;1604415;19998;6605;6;61
+r;1604414;19998;121002;6;62
+r;27996343;19998;30843;6;62
+r;122718303;19998;6427104;11;28
+r;274297284;19998;10903025;11;29
+r;33695220;19998;1732081;11;32
+r;33695648;19998;1523444;11;32
+r;190314;19998;151553;12;14
+r;217313;19998;152842;12;31
+r;193669291;19998;52232;15;47
+r;34286507;19998;247812;17;38
+r;90050551;19998;3575927;18;28
+r;90923023;19998;3576104;18;32
+r;337733;19998;19998;19;51
+r;427082;19998;27610;25;51
+r;1375267;19998;195215;25;54
+r;2125342;19998;3605;25;57
+r;1375269;19998;38673;25;58
+r;427081;19998;124550;25;60
+r;427083;19998;54271;25;60
+r;33425732;19998;102345;32;-72
+r;33425733;19998;57221;32;-5
+r;33425734;19998;37298;32;-5
+r;72961745;19998;103405;32;38
+r;33785090;19998;91691;32;56
+r;33785089;19998;14330;32;61
+r;33425735;19998;28453;32;68
+r;76260410;19998;254878;36;4
+r;34251843;19998;223172;36;17
+r;294959330;19998;276096;36;25
+r;96200968;19998;251716;36;30
+r;9288482;19998;254877;36;32
+r;77921586;19998;162763;36;37
+r;2277600;19998;191667;36;49
+r;54783508;19998;2585996;36;56
+r;2382126;19998;254876;36;64
+r;9203643;19998;241794;36;147
+r;2160737;19998;223173;36;291
+r;95741515;19998;578040;71;32
+r;28949419;19998;1760781;128;3
+r;28949415;19998;1760780;128;3
+r;28949423;19998;1760782;128;3
+r;28949427;19998;1760783;128;3
+r;21937003;19998;1147162;128;9
+r;94318815;19998;3935770;444;1
+r;78096490;19998;3228593;444;27
+r;74346470;19998;2983124;555;359
+r;1988812;19998;121129;666;1
+r;1988815;19998;7608;666;1
+r;1988816;19998;87714;666;1
+r;1988834;19998;54271;666;1
+r;1988835;19998;117423;666;1
+r;1988814;19998;117787;666;2
+r;1988817;19998;25437;666;2
+r;1988833;19998;30843;666;2
+r;1988811;19998;121002;666;4
+r;1988813;19998;81121;666;4
+r;6727368;19998;121002;777;10
+r;6727369;19998;117423;777;10
+r;6727370;19998;81121;777;10
+r;6727371;19998;143131;777;10
+r;6727372;19998;7608;777;10
+r;6727373;19998;136356;777;10
+r;6727374;19998;172944;777;10
+r;6727375;19998;145811;777;10
+r;6727376;19998;144604;777;10
+r;6727377;19998;85167;777;10
+r;6727378;19998;219374;777;10
+r;17916458;19998;403219;777;10
+r;27486054;19998;115126;777;10
+r;27486056;19998;126976;777;10
+r;27486058;19998;146553;777;10
+r;82433242;19998;2928174;777;10
+r;113611333;19998;2238;777;10
+r;114915723;19998;5881365;777;10
+r;293254704;19998;10866445;777;10
+r;293254705;19998;10384339;777;10
+r;293254706;19998;10094763;777;10
+r;293254707;19998;10996530;777;10
+r;293254708;19998;10036044;777;10
+r;293254709;19998;10866315;777;10
+r;293254710;19998;10866919;777;10
+r;285447507;19998;3492159;999;4
+r;285447554;19998;3492171;999;4
+r;285447605;19998;3492177;999;4
+r;285447655;19998;3492156;999;4
+r;285447705;19998;3492179;999;4
+r;285447756;19998;3492180;999;4
+r;285447806;19998;3492178;999;4
+r;285447856;19998;3492172;999;4
+r;285447893;19998;1442114;999;4
+r;285447921;19998;213733;999;4
+r;285447953;19998;213732;999;4
+r;285447984;19998;213731;999;4
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+
+r;77374245;152067;19998;0;1
+r;122718304;6427104;19998;0;1
+r;274297285;10903025;19998;0;5
+r;33695221;1732081;19998;0;8
+r;33695649;1523444;19998;0;8
+r;28009799;30843;19998;0;15
+r;28009800;109527;19998;0;15
+r;96714219;121129;19998;0;16
+r;834305;119993;19998;0;21
+r;949053;82877;19998;0;21
+r;10593133;6605;19998;0;22
+r;12249138;142212;19998;0;22
+r;10593132;121002;19998;0;23
+r;15449444;125506;19998;0;26
+r;21100429;45296;19998;0;26
+r;81977884;2092510;19998;0;26
+r;21161103;130949;19998;0;28
+r;87607700;2092552;19998;0;28
+r;15281839;16033;19998;0;30
+r;1538433;213734;19998;0;31
+r;21163264;61407;19998;0;31
+r;21164169;73685;19998;0;35
+r;10892109;237;19998;0;53
+r;190313;92847;19998;0;60
+r;688800;142212;19998;5;78
+r;27997070;30843;19998;8;26
+r;77372561;152067;19998;8;35
+r;9666862;121002;19998;8;39
+r;27997072;109527;19998;8;40
+r;9666864;6605;19998;8;42
+r;9798991;237;19998;8;56
+r;11875407;15241;19998;11;121
+r;11875409;121129;19998;11;121
+r;11875411;213268;19998;11;121
+r;5147928;124550;19998;14;7
+r;1796716;3605;19998;16;55
+r;217312;156689;19998;16;105
+r;11548867;326627;19998;16;106
+r;337733;19998;19998;19;51
+r;32415005;2092552;19998;19;57
+r;34289677;247812;19998;23;26
+r;15220886;125506;19998;27;22
+r;15148559;16033;19998;27;30
+r;253505578;52232;19998;28;1
+r;283022833;199888;19998;56;10
+r;282594190;262583;19998;56;15
+r;282593143;11123017;19998;56;25
+r;95708998;578040;19998;71;34
+r;1534096;92847;19998;666;1
+r;1788672;71431;19998;666;3
+r;3579031;26982;19998;777;10
+r;3719615;131110;19998;777;10
+r;3956405;71431;19998;777;10
+r;3956407;275541;19998;777;10
+r;4790949;151546;19998;777;10
+r;4809430;267619;19998;777;10
+r;4809431;282680;19998;777;10
+r;4809432;267621;19998;777;10
+r;4949214;246794;19998;777;10
+r;5028730;266698;19998;777;10
+r;6448414;88251;19998;777;10
+r;6678899;15241;19998;777;10
+r;6686252;50733;19998;777;10
+r;6686253;16059;19998;777;10
+r;6939195;43865;19998;777;10
+r;6965985;48706;19998;777;10
+r;7539478;152279;19998;777;10
+r;7802222;139390;19998;777;10
+r;8443631;232267;19998;777;10
+r;8531370;115126;19998;777;10
+r;8531371;312172;19998;777;10
+r;8531372;312173;19998;777;10
+r;16377509;421804;19998;777;10
+r;17460096;414964;19998;777;10
+r;113617388;1114;19998;777;10
+r;113618800;40921;19998;777;10
+r;113875960;144267;19998;777;10
+r;114488785;81121;19998;777;10
+r;114744135;5895179;19998;777;10
+r;115005833;5900764;19998;777;10
+r;271779212;1157982;19998;777;10
+r;272923202;10879324;19998;777;10
+r;272923203;10879325;19998;777;10
+r;272923204;10879326;19998;777;10
+r;291909604;11378070;19998;777;10
+r;292477217;11391307;19998;777;10
+r;293234792;11406953;19998;777;10
+r;293234793;11406955;19998;777;10
+r;293234794;11406956;19998;777;10
+r;293234795;11406957;19998;777;10
+r;293317343;14507;19998;777;10
+r;293317344;410241;19998;777;10
+r;293317345;166674;19998;777;10
+
+// END

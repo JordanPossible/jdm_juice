@@ -1,8 +1,26 @@
-<app-head></app-head>
+<!--<div class="col-sm-2 ">
+  <select [(ngModel)]="selected" name="selector" class="custom-select">
+    <option *ngFor="let elt of typeSearch" value="{{elt}}">{{elt}}</option>
+  </select>
+</div> !-->
+
+
+<div class="d-flex justify-content-end white flex-wrap">
+  <div class="mr-auto p-2"><img src="assets/img/jus.png" alt="juice" ></div>
+  <div class="p-2">
+    <form class="form-inline ml-auto align-content-center">
+      <div class="md-form my-0">
+        <input class="form-control" placeholder="Mot" aria-label="Search" type="text" [(ngModel)]="word" name="word">
+      </div>
+      <button value="Submit" (click)="callApi(word)" class="btn btn-outline-black btn-md my-0 ml-sm-2" type="submit">Soumettre</button>
+    </form>
+  </div>
+</div>
+
 <app-definition></app-definition>
 <app-stats></app-stats>
 <app-types></app-types>
-<!-- Affiche le json retourner par le server avec la pipeline json de angular -->
-<!-- https://angular.io/api/common/JsonPipe -->
 
+<!-- Affiche le json retourné par le server avec la pipeline json de angular -->
+<!-- https://angular.io/api/common/JsonPipe -->
 {{ result_box | json }}

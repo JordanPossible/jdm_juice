@@ -9,6 +9,9 @@ import { MotsApiService } from './mots/mots-api.service';
 })
 
 
+export class Definition{
+
+}
 
 export class AppComponent implements OnInit, OnDestroy {
   title = 'app';
