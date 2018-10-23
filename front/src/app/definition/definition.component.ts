@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input, AfterContentInit} from '@angular/core';
+import { Definition } from './../models/definition';
 
 @Component({
   selector: 'app-definition',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefinitionComponent implements OnInit {
 
+  @Input() definition : Definition ;
+  
   constructor() { }
 
   ngOnInit() {
   }
 
+ngAfterContentInit(){
+
+}
 }

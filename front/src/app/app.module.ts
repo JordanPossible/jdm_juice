@@ -6,7 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import {MotsApiService} from './mots/mots-api.service';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import { HeadComponent } from './head/head.component';
 import { DefinitionComponent } from './definition/definition.component';
 import { StatsComponent } from './stats/stats.component';
 import { TypesComponent } from './types/types.component';
@@ -15,7 +14,6 @@ import { TypesComponent } from './types/types.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeadComponent,
     DefinitionComponent,
     StatsComponent,
     TypesComponent
