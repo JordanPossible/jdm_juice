@@ -15,6 +15,8 @@ export class AppComponent implements OnInit, OnDestroy {
 
   title = 'app';
 
+  json_Res : any;
+
   definition : Definition;
 
   word: string;
@@ -40,12 +42,15 @@ export class AppComponent implements OnInit, OnDestroy {
     this.motsApi
       .getMots(word)
       .subscribe(res => {
+
+        this.json_Res = res;
+
         // console.log(res)
-        this.definition  = {
+        this.definition = {
         id: 1,
         title: word,
-        body: res.definition
-        }
+        body: this.json_Res.definition
+      };
         //this.json_Res = res;
       });
   }
