@@ -1,4 +1,16 @@
-<div class=" green ">
-<h1>Definition : {{definition.title}}</h1>
-<p *ngFor="let def of definition.body">{{ def }}</p>
+<div class="d-flex flex-column tempting-azure-gradient">
+  <div class="p-2 "><h1>Definition : {{definition.title}}</h1></div>
+
+  <div class="p-2 list-group">
+    <div *ngFor="let def of definition.body" class="list-group-item flex-column align-items-start definition">
+      <div class="d-flex w-100 justify-content-between">
+        <p class="mb-1">{{ def.body }}</p>
+        <small>{{def.id}}</small>
+      </div>
+
+      <small *ngFor="let par of def.fam">[{{par}}]</small>
+    </div>
+  </div>
+
+
 </div>

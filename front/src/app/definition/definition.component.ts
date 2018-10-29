@@ -9,7 +9,7 @@ import { Definition } from './../models/definition';
 export class DefinitionComponent implements OnInit {
 
   @Input() definition : Definition ;
-  
+
   constructor() { }
 
   ngOnInit() {

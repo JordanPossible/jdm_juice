@@ -45,12 +45,34 @@ export class AppComponent implements OnInit, OnDestroy {
 
         this.json_Res = res;
 
-        // console.log(res)
-        this.definition = {
-        id: 1,
-        title: word,
-        body: this.json_Res.definition
-      };
+
+            // console.log(res)
+            this.definition = {
+              title: word,
+              body: []
+            };
+
+            var regExp =/\(([^)]+)\)/g;
+            var regExp2 =/[0-9]\./g
+
+
+
+            for(var i in this.json_Res.definition) {
+
+                var item = this.json_Res.definition[i];
+                var matches = item.match(regExp);
+                this.definition.body.push({
+                    "id" : item.charAt(0),
+                    "body" : item.replace(regExp2, '');
+                    "fam" : []
+                });
+                for(var j in matches) {
+                    var par = matches[j].replace('(', '').replace(')','');
+                    this.definition.body[i].fam.push(par);
+                }
+
+            }
+
         //this.json_Res = res;
       });
   }

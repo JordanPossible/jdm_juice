@@ -1,0 +1,616 @@
+
+// DUMP pour le terme 'artichaud' (eid=230759)
+
+
+
+1. (Cuisine) Légume que produit cette plante. 
+ Une friture d'artichauts.    
+ Des artichauts à la poivrade.    
+ Une pomme d'artichaut.  
+2. Pièce de serrurerie, qui est hérissée de plusieurs pointes et de crocs et dont on garnit une clôture pour empêcher de passer ou d'escalader.
+3. (Botanique) Capitule de la plante, utilisé comme légume. 
+ Une friture d'artichauts.    
+ Des artichauts à la poivrade.    
+ Une pomme d'artichaut.  
+4. (Argot) Portefeuille, par analogie avec les nombreuses feuilles du capitule. 
+ On barbote au pauvr' diable qui crèveCe qu'il a dans son artichaut,Ses beaux crocs même on lui enlève,À l'hosteau.    
+ (Goualantes de la Vilette, 1906)  
+5. Pièce de ferronnerie, hérissée de plusieurs pointes et de crocs et dont on garnit une clôture pour empêcher de passer ou d'escalader. 
+ Soudain, une voix formidable cria : ? À l'assaut! Et l'on vit le prince des Boscénos dressant sur le mur armé de pointes et d'artichauts de fer sa forme gigantesque.    
+ (Anatole France, L'Île des pingouins, 1908)  
+6. Variante de artichaut. 
+ La surprise venant d'un ''supion au lait de coco'', d'une ''sardine au pain perdu'', d'une ''patte de poulet grillée'', d'une ''peau de lait bouillie à la truffe d'Alba'', d'un ''gibier d'automne à la mandarine'', d'une ''rose d'artichaud'' ou encore d'un ''lièvre à la royale façon Feran''.    
+ (Souvenirs d'expériences gustatives au restaurant El Bulli, LeMonde.fr, 30 juillet 2011)  
+7. (Botanique) (Agriculture) Plante de la famille des Astéracées qui porte une inflorescence à bractées piquantes se recouvrant les unes les autres et dont le réceptacle charnue est comestible. 
+ Entre Saint-Pol-de-Léon et Roscoff, je fais route parmi d'immenses plantations d'artichauts et de choux-fleurs, prosaïquement accroupies entre leurs murets de pierres sèches.    
+ (Ludovic Naudeau, La France se regarde : Le problème de la natalité, Librairie Hachette, Paris, 1931)   
+ Et le Progrès vint, qui l'obligea à mettre dans son étalage des artichauts et des aubergines de France, des pommes étrangères, [?] des bananes, des noix aux formes insolites, des « grappes fruits » et des mangues?    
+ (H. G. Wells, La Guerre dans les airs, 1908, traduction d'Henry-D. Davray et B. Kozakiewicz, Mercure de France, Paris, 1910, p. 8 de l'éd. de 1921)  
+8. L'artichaut (Cynara cardunculus var. scolymus) est une plante dicotylédone de la famille des Astéracées (ou Composées) appartenant au genre Cynara.
+
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;10;'n_relation'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+nt;666;'n_AKI'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;230759;'artichaud';666;50
+e;3762435;'ingrédient de recette de cuisine';1;2
+e;221731;'Astéracées';1;56
+e;283983;'artichaut d'Israël';777;50
+e;336602;'artichaut à la barigoule';1;50
+e;436759;'artichaut et vinaigrette';1;50
+e;109930;'artichaut de Jérusalem';1;50
+e;144411;'artichaut d'Espagne';1;50
+e;143918;'artichaut d'hiver';1;50
+e;3343;'racine';1;1040
+e;49549;'racines';1;202
+e;336603;'artichaut breton';1;52
+e;3564530;'Feu d'artifice';777;0
+e;7030645;'=artichoke=';1;0
+e;68231;'carline';1;50
+e;217823;'racine>3674';1;76;'racine>botanique'
+e;25578;'artichaut sauvage';1;50
+e;143960;'jet d'eau';1;74
+e;117095;'zoologie';1;1542
+e;81472;'orpin';1;50
+e;109533;'pizza';1;530
+e;135591;'poil';1;2542
+e;114327;'acide désoxyribonucléique';1;136
+e;74103;'artichaut';1;88
+e;3810;'joubarbe';1;50
+e;70311;'topinambour';1;54
+e;152552;'Cuisine';1;156
+e;136076;'plantes';1;200
+e;43125;'gastronomie';1;2262
+e;88475;'art des jardins';1;54
+e;141611;'pointe';1;592
+e;45887;'barrière';1;332
+e;102206;'médecine';1;6442
+e;101176;'chlorophylle';1;144
+e;452654;'composée>171870';1;50;'composée>Nom:'
+e;214275;'cuisine>143757';1;1652;'cuisine>art culinaire'
+e;136761;'feu d'artifice';1;156
+e;3674;'botanique';1;1702
+e;12005;'cardon';1;54
+e;1936972;'légume comestible';1;0
+e;91657;'nutrition';1;344
+e;16033;'cuisine';1;10600
+e;50567;'agriculture';1;1676
+e;189981;'ingrédient de cuisine';1;66
+e;60291;'artichaut cardon';1;50
+e;37993;'feuille';1;2106
+e;26976;'vert';1;2660
+e;113902;'alimentation';1;1308
+e;96211;'coeur';1;2120
+e;336604;'artichaut à la vinaigrette';1;50
+e;145941;'plante';1;4706
+e;105995;'légumes';1;930
+e;165713;'coeur d'artichaut';1;66
+e;120603;'légume';1;2552
+e;239128;'_COM';36;50
+e;171870;'Nom:';4;50
+e;316850;'entité physique';1;50
+e;151749;'plante verte';1;128
+e;391220;'streptophyte';1;50
+e;2510313;'métabionte';1;0
+e;370959;'plante dicotylédone';1;50
+e;54794;'eucaryote';1;188
+e;3202103;'stomatophyte';1;0
+e;325729;'biconte';1;8
+e;215937;'plante>3674';1;556;'plante>botanique'
+e;237445;'être>68439';1;28;'être>individu'
+e;121252;'archégoniate';1;50
+e;225847;'organisme>71624';1;64;'organisme>être vivant'
+e;3329465;'phragmoplastophyte';1;0
+e;331060;'végétal>65081';1;14;'végétal>organisme vivant'
+e;391218;'trachéophyte';1;50
+e;176114;'embryophyte';1;50
+e;43700;'spermaphyte';1;50
+e;24973;'phanérogame';1;50
+e;436570;'entité biologique';1;50
+e;65081;'organisme vivant';1;116
+e;127089;'angiosperme';1;100
+e;3229444;'chlorobionte';1;0
+e;96851;'pièce';1;3060
+e;136507;'végétal';1;736
+e;71624;'être vivant';1;1842
+e;151900;'chlorophyle';1;74
+e;16747;'adn';1;156
+e;2584139;'racine>146881';1;0;'racine>Nom:Fem+SG'
+e;139779;'ADN';1;662
+e;8125649;'=pizza=';1;0
+e;71438;'astéracées';1;50
+e;209754;'vert artichaud';1;50
+e;214276;'cuisine>96851';1;304;'cuisine>pièce'
+e;146274;'marché';1;1058
+e;96376;'croquant';1;102
+e;439630;'chaud>171869';1;50;'chaud>Adj:'
+e;53495;'frais';1;614
+e;440058;'amer>171869';1;50;'amer>Adj:'
+e;125017;'bouilli';1;62
+e;97910;'amer';1;222
+e;223577;'amer>71872';1;48;'amer>saveur'
+e;28105;'cuit';1;328
+e;19150;'chaud';1;2146
+e;56101;'autotrophe';1;58
+e;82844;'comestible';1;244
+e;157025;'chaud>146888';1;50;'chaud>Adj:Mas+SG'
+e;122864;'mort';1;6366
+e;240054;'chaud>40531';1;86;'chaud>température'
+e;1384;'vivant';1;586
+e;3576104;'Morpho:nospace';18;50
+e;187275;'Langage:argot';18;50
+e;3575927;'Morpho:min';18;50
+e;124600;'mourir';1;1764
+e;251694;'mourir>126720';1;158;'mourir>cesser de vivre'
+e;43601;'se reproduire';1;478
+e;2442;'vivre';1;2194
+e;259820;'vivre>160251';1;50;'vivre>être en vie'
+e;97571;'consommer';1;154
+e;102345;'plaisir';1;3198
+e;103405;'indifférence';1;464
+e;37298;'amour';1;6776
+e;57221;'joie';1;3706
+e;14330;'satisfaction';1;516
+e;91691;'surprise';1;1064
+e;28453;'bonheur';1;2094
+e;254878;'_POL-NEG_PC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;251716;'_INFO-MONOSEMIC';36;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;191669;'_INFO-SEM-LIVING-BEING';36;160
+e;162749;'_INFO-BAD-ORTHO';36;58
+e;223172;'_POL-NEG';36;50
+e;254876;'_POL-POS_PC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;223173;'_POL-POS';36;50
+e;77982;'juillet';1;2162
+e;835;'août';1;2100
+e;146001;'juin';1;2204
+e;41407;'septembre';1;2344
+e;41682;'été';1;2332
+e;3743131;'régime d'épargne colique';1;0
+e;5039603;':r61435172';10;0
+e;5113237;':r61059449';10;0
+e;5488561;':r60864970';10;0
+e;9233026;':r125346917';10;0
+e;9524836;':r61435171';10;0
+e;4667200;':r80455136';10;0
+e;4667201;':r61435173';10;0
+e;4669675;':r61435169';10;0
+e;9232882;':r125352510';10;0
+e;9247573;':r125352310';10;0
+e;9510723;':r211999945';10;0
+e;9448273;':r213729821';10;0
+e;9158283;':r205631324';10;0
+e;4697958;':r61059450';10;0
+e;5080644;':r91555159';10;0
+e;2350702;':r34720472';10;0
+e;2350703;':r34720477';10;0
+e;2350704;':r34720482';10;0
+e;2350705;':r34720487';10;0
+e;2350706;':r34720492';10;0
+e;4460627;':r61059428';10;0
+e;9542409;':r211999936';10;0
+e;5844372;':r114038053';10;0
+e;5860312;':r114184387';10;0
+e;4844906;':r59886860';10;0
+e;8973910;':r98431742';10;0
+e;8973914;':r59729926';10;0
+e;8869963;':r24507288';10;0
+e;4867788;':r59730604';10;0
+e;8896003;':r97675271';10;0
+e;8973912;':r91557205';10;0
+e;8973913;':r61199548';10;0
+e;8973915;':r59732101';10;0
+e;5035898;':r59725499';10;0
+e;4867771;':r59729248';10;0
+e;5860180;':r114183717';10;0
+e;9161132;':r97675189';10;0
+e;9461170;':r213729817';10;0
+e;9159355;':r205639042';10;0
+e;5844272;':r114037553';10;0
+e;9159664;':r205640191';10;0
+e;5039602;':r61435170';10;0
+e;3957023;'dbnary:fra:__ws_1_artichaud__nom__1';444;0
+e;3398269;'bn:00006118n';444;0
+e;6149728;'umls:C0453108';444;0
+e;3228593;'wiki:@';444;0
+e;2983124;'_SW';36;50
+e;5610;'dégueulasse';1;274
+e;125088;'moche';1;436
+e;7012425;'=chlorophyll=';1;0
+e;7336113;'=agriculture=';1;0
+e;181597;'cur d'artichaut';1;50
+e;7030637;'=vegetables=';1;0
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;5;'r_syn';'synonyme';Il est demandé d'énumérer les synonymes ou quasi-synonymes de ce terme.
+rt;6;'r_isa';'générique';Il est demandé d'énumérer les GENERIQUES/hyperonymes du terme. Par exemple, 'animal' et 'mammifère' sont des génériques de 'chat'.
+rt;8;'r_hypo';'spécifique';Il est demandé d'énumérer des SPECIFIQUES/hyponymes du terme. Par exemple, 'mouche', 'abeille', 'guêpe' pour 'insecte'.
+rt;9;'r_has_part';'partie';Il faut donner des PARTIES/constituants/éléments (a pour méronymes) du mot cible. Par exemple, 'voiture' a comme parties : 'porte', 'roue', 'moteur', ...
+rt;10;'r_holo';'tout';Il est démandé d'énumérer des 'TOUT' (a pour holonymes)  de l'objet en question. Pour 'main', on aura 'bras', 'corps', 'personne', etc... Le tout est aussi l'ensemble comme 'classe' pour 'élève'.
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;13;'r_agent';'action>agent';L'agent (qu'on appelle aussi le sujet) est l'entité qui effectue l'action, OU la subit pour des formes passives ou des verbes d'état. Par exemple, dans - Le chat mange la souris -, l'agent est le chat. Des agents typiques de 'courir' peuvent être 'sportif', 'enfant',...
+rt;14;'r_patient';'action>patient';Le patient (qu'on appelle aussi l'objet) est l'entité qui subit l'action. Par exemple dans - Le chat mange la souris -, le patient est la souris. Des patients typiques de manger peuvent être 'viande', 'légume', 'pain', ...
+rt;15;'r_lieu';'chose>lieu';Il est demandé d'énumérer les LIEUX typiques où peut se trouver le terme/objet en question.
+rt;17;'r_carac';'caractéristique';Pour un terme donné, souvent un objet, il est demandé d'en énumérer les CARACtéristiques (adjectifs) possibles/typiques. Par exemple, 'liquide', 'froide', 'chaude', pour 'eau'.
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;23;'r_carac-1';'caractéristique-1';Quels sont les objets (des noms) possédant typiquement/possiblement la caractérisque suivante ? Par exemple, 'soleil', 'feu', pour 'chaud'.
+rt;24;'r_agent-1';'agent typique-1';Que peut faire ce SUJET ? (par exemple chat => miauler, griffer, etc.)
+rt;26;'r_patient-1';'patient-1';(inverse de r_patient) Que peut-on faire à cet OBJET. Pour 'pomme', on pourrait avoir 'manger', 'croquer', couper', 'éplucher',  etc.
+rt;27;'r_domain-1';'domaine-1';inverse de r_domain : à un domaine, on associe des termes
+rt;28;'r_lieu-1';'lieu>chose';A partir d'un lieu, il est demandé d'énumérer ce qui peut typiquement s'y trouver.
+rt;32;'r_sentiment';'sentiment';Pour un terme donné, évoquer des mots liés à des SENTIMENTS ou des EMOTIONS que vous pourriez associer à ce terme. Par exemple, la joie, le plaisir, le dégoût, la peur, la haine, l'amour, l'indifférence, l'envie, avoir peur, horrible, etc.
+rt;33;'r_error';'erreur';lien d'erreur
+rt;35;'r_meaning';'sens/signification';Quels SENS/SIGNIFICATIONS pouvez vous donner au terme proposé. Il s'agira de termes évoquant chacun des sens possibles, par exemple : 'forces de l'ordre', 'contrat d'assurance', 'police typographique', ... pour 'police'.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;49;'r_time';'action>temps';Donner une valeur temporelle -quel moment- peut-on associer au terme indiqué (par exemple 'dormir' -> nuit, 'bronzer' -> été, 'fatigue' -> 'soir')
+rt;71;'r_variante';'variante';Variantes du termes cible. Par exemple, yaourt, yahourt, ou encore évènement, événement.
+rt;106;'r_color';'couleur';A comme couleur(s)...
+rt;115;'r_sentiment-1';'sentiment-1';Pour un SENTIMENT ou EMOTION donné, il est demandé dénumérer les termes que vous pourriez associer. Par exemple, pour 'joie', on aurait 'cadeau', 'naissance', 'bonne nouvelle', etc.
+rt;127;'r_incompatible';'r_incompatible';Relation d'incompatibilité, ne doivent pas être présents ensemble. Par exemple, alcool r_incompatible antibiotique.
+rt;128;'r_node2relnode';'r_node2relnode';Relation entre un noeud (quelconque) et un noeud de relation (type = 10) - permet de rendre le graphe connexe même avec les annotations de relations
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;666;'r_aki';'r_aki';(TOTAKI) equivalent pour TOTAKI de l'association libre
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+
+r;245346019;230759;3762435;0;11
+r;198827866;230759;221731;0;13
+r;61444876;230759;283983;0;15
+r;61444878;230759;336602;0;15
+r;61444880;230759;436759;0;15
+r;61444884;230759;109930;0;15
+r;61444888;230759;144411;0;15
+r;61444886;230759;143918;0;17
+r;61059379;230759;3343;0;23
+r;61059376;230759;49549;0;24
+r;61444890;230759;336603;0;24
+r;91270520;230759;3564530;0;24
+r;216673537;230759;7030645;0;25
+r;61059388;230759;68231;0;26
+r;61059377;230759;217823;0;27
+r;61059381;230759;25578;0;27
+r;61059402;230759;143960;0;27
+r;125346928;230759;117095;0;27
+r;61059391;230759;81472;0;29
+r;61059396;230759;109533;0;29
+r;61059405;230759;135591;0;29
+r;62238324;230759;114327;0;29
+r;60864969;230759;74103;0;30
+r;61059389;230759;3810;0;30
+r;61059390;230759;70311;0;30
+r;61059395;230759;152552;0;30
+r;61059399;230759;136076;0;30
+r;61059406;230759;43125;0;30
+r;61059407;230759;88475;0;30
+r;61059408;230759;141611;0;30
+r;61059409;230759;45887;0;30
+r;61059380;230759;102206;0;31
+r;61059378;230759;101176;0;32
+r;61059410;230759;452654;0;34
+r;61059392;230759;214275;0;35
+r;61059401;230759;136761;0;35
+r;61059394;230759;3674;0;37
+r;61059387;230759;12005;0;38
+r;61059403;230759;1936972;0;38
+r;61059400;230759;91657;0;41
+r;61059393;230759;16033;0;45
+r;61405956;230759;50567;0;45
+r;61059404;230759;189981;0;46
+r;61059374;230759;60291;0;47
+r;61059411;230759;37993;0;51
+r;71840288;230759;26976;0;51
+r;61059397;230759;113902;0;52
+r;61059412;230759;96211;0;55
+r;61059413;230759;336604;0;57
+r;61059414;230759;145941;0;58
+r;61059398;230759;105995;0;64
+r;61059415;230759;165713;0;70
+r;61059416;230759;120603;0;143
+r;24167706;230759;239128;0;1000000
+r;125346927;230759;117095;3;27
+r;61059419;230759;102206;3;29
+r;61059420;230759;136076;3;30
+r;61059421;230759;214275;3;32
+r;61059422;230759;3674;3;34
+r;61059417;230759;91657;3;41
+r;61059418;230759;50567;3;41
+r;61059423;230759;16033;3;43
+r;61059424;230759;105995;3;46
+r;61059425;230759;113902;3;49
+r;7764557;230759;171870;4;26
+r;226228667;230759;7030645;5;25
+r;60593357;230759;74103;5;30
+r;89078570;230759;3564530;5;32
+r;61059426;230759;143960;5;56
+r;61059427;230759;136761;5;59
+r;125346926;230759;316850;6;27
+r;125346925;230759;151749;6;27
+r;125346924;230759;391220;6;27
+r;125346923;230759;2510313;6;27
+r;125346922;230759;370959;6;27
+r;125346921;230759;54794;6;27
+r;125346920;230759;3202103;6;27
+r;125346919;230759;325729;6;27
+r;125346918;230759;215937;6;27
+r;125346916;230759;237445;6;27
+r;125346915;230759;121252;6;27
+r;125346914;230759;225847;6;27
+r;125346913;230759;3329465;6;27
+r;125346911;230759;331060;6;27
+r;125346910;230759;391218;6;27
+r;125346909;230759;176114;6;27
+r;125346908;230759;43700;6;27
+r;125346907;230759;24973;6;27
+r;125346906;230759;436570;6;27
+r;125346905;230759;65081;6;27
+r;125346904;230759;127089;6;27
+r;125346903;230759;3229444;6;27
+r;82644145;230759;96851;6;34
+r;61059434;230759;452654;6;55
+r;61059428;230759;145941;6;57
+r;61059433;230759;120603;6;64
+r;61059432;230759;1936972;6;66
+r;61059431;230759;189981;6;69
+r;61059429;230759;136507;6;72
+r;61059430;230759;71624;6;82
+r;93816616;230759;3762435;6;114
+r;61059443;230759;336603;8;28
+r;61059444;230759;336604;8;30
+r;61059442;230759;144411;8;34
+r;61059439;230759;60291;8;36
+r;61059440;230759;109930;8;41
+r;61059435;230759;283983;8;43
+r;61059436;230759;336602;8;46
+r;61059437;230759;436759;8;46
+r;61059441;230759;143918;8;52
+r;61059438;230759;25578;8;53
+r;61059447;230759;217823;9;26
+r;125346917;230759;151900;9;29
+r;91555159;230759;16747;9;30
+r;98431678;230759;2584139;9;33
+r;61059445;230759;3343;9;38
+r;61059446;230759;101176;9;38
+r;61059448;230759;49549;9;41
+r;61059449;230759;139779;9;41
+r;61882345;230759;114327;9;44
+r;61059450;230759;109533;10;30
+r;213729817;230759;8125649;10;32
+r;205640191;230759;71438;10;34
+r;114037553;230759;221731;10;60
+r;8684187;230759;209754;11;162
+r;213743982;230759;214276;15;29
+r;61059451;230759;146274;15;40
+r;61059452;230759;16033;15;53
+r;216289734;230759;96376;17;5
+r;61059457;230759;26976;17;26
+r;98854129;230759;439630;17;26
+r;61059458;230759;53495;17;28
+r;104909982;230759;440058;17;28
+r;61059459;230759;125017;17;29
+r;76069977;230759;97910;17;29
+r;76069978;230759;223577;17;29
+r;61059460;230759;28105;17;31
+r;61059461;230759;19150;17;35
+r;61059454;230759;56101;17;36
+r;61059453;230759;82844;17;39
+r;98854159;230759;157025;17;41
+r;61059455;230759;122864;17;44
+r;61059462;230759;240054;17;45
+r;61059456;230759;1384;17;47
+r;90798730;230759;3576104;18;27
+r;95487763;230759;187275;18;29
+r;89906940;230759;3575927;18;38
+r;61059463;230759;124600;24;30
+r;61059464;230759;251694;24;30
+r;61059465;230759;43601;24;30
+r;61059466;230759;2442;24;30
+r;61059467;230759;259820;24;30
+r;61059468;230759;97571;26;31
+r;102736653;230759;102345;32;11
+r;61059469;230759;103405;32;34
+r;104431541;230759;37298;32;39
+r;73633540;230759;57221;32;41
+r;61448372;230759;14330;32;63
+r;61448373;230759;91691;32;65
+r;61448371;230759;28453;32;72
+r;1802242;230759;74103;33;26
+r;27232164;230759;254878;36;11
+r;9249302;230759;254877;36;25
+r;96012835;230759;251716;36;27
+r;31633484;230759;273221;36;40
+r;62053723;230759;191669;36;40
+r;1802243;230759;162749;36;45
+r;26245051;230759;223172;36;56
+r;9249301;230759;254876;36;64
+r;9227175;230759;241794;36;124
+r;9137262;230759;223173;36;322
+r;61059472;230759;77982;49;38
+r;61059473;230759;835;49;42
+r;61059471;230759;146001;49;43
+r;61059474;230759;41407;49;44
+r;61059470;230759;41682;49;46
+r;60590125;230759;74103;71;63
+r;61059475;230759;26976;106;14
+r;94040355;230759;3743131;127;32
+r;104865111;230759;5039603;128;1
+r;105643657;230759;5113237;128;1
+r;107958682;230759;5488561;128;1
+r;210445176;230759;9233026;128;1
+r;214414233;230759;9524836;128;1
+r;100913897;230759;4667200;128;3
+r;100913901;230759;4667201;128;3
+r;100923852;230759;4669675;128;3
+r;210444601;230759;9232882;128;4
+r;216289730;230759;9247573;128;5
+r;216289731;230759;9510723;128;5
+r;216289732;230759;9448273;128;5
+r;216289733;230759;9158283;128;5
+r;101048697;230759;4697958;128;7
+r;105499239;230759;5080644;128;9
+r;61059382;230759;2350702;128;17
+r;61059383;230759;2350703;128;17
+r;61059384;230759;2350704;128;17
+r;61059385;230759;2350705;128;17
+r;61059386;230759;2350706;128;17
+r;99738633;230759;4460627;128;21
+r;214622748;230759;9542409;128;25
+r;125346930;230759;5844372;128;27
+r;125346929;230759;5860312;128;27
+r;196685586;230759;4844906;128;28
+r;196685579;230759;8973910;128;29
+r;196685582;230759;8973914;128;30
+r;196685587;230759;8869963;128;30
+r;103383194;230759;4867788;128;32
+r;196685585;230759;8896003;128;33
+r;196685580;230759;8973912;128;34
+r;196685581;230759;8973913;128;34
+r;196685583;230759;8973915;128;34
+r;196685584;230759;5035898;128;35
+r;103383193;230759;4867771;128;55
+r;114183721;230759;5860180;128;64
+r;205952396;230759;9161132;128;93
+r;213847415;230759;9461170;128;115
+r;205665512;230759;9159355;128;121
+r;114037556;230759;5844272;128;135
+r;205666897;230759;9159664;128;337
+r;104865107;230759;5039602;128;543
+r;94337833;230759;3957023;444;1
+r;87907726;230759;3398269;444;26
+r;125346912;230759;6149728;444;27
+r;78300856;230759;3228593;444;32
+r;74388007;230759;2983124;555;368
+r;1801885;230759;26976;666;1
+r;1801886;230759;5610;666;1
+r;1801887;230759;125088;666;1
+r;1801888;230759;120603;666;1
+r;1801889;230759;96211;666;1
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+
+r;82209534;152552;230759;0;1
+r;216367646;117095;230759;0;1
+r;255611123;7012425;230759;0;10
+r;97671669;2584139;230759;0;15
+r;61405960;136076;230759;0;21
+r;61405962;214275;230759;0;21
+r;62013968;101176;230759;0;21
+r;243671894;109930;230759;0;21
+r;61405958;102206;230759;0;23
+r;62039237;136761;230759;0;23
+r;88937934;3564530;230759;0;23
+r;61405955;50567;230759;0;26
+r;61405972;113902;230759;0;26
+r;62013969;217823;230759;0;26
+r;61405968;16033;230759;0;27
+r;61405966;3674;230759;0;28
+r;62013970;49549;230759;0;28
+r;62373075;114327;230759;0;29
+r;61405951;91657;230759;0;30
+r;62039236;143960;230759;0;30
+r;212737170;7336113;230759;0;30
+r;14195033;165713;230759;0;31
+r;14164223;181597;230759;0;32
+r;61553313;74103;230759;0;35
+r;62013967;3343;230759;0;35
+r;216673538;7030645;230759;0;35
+r;62021031;109533;230759;0;42
+r;211999790;8125649;230759;0;45
+r;162579419;7030637;230759;0;105
+r;61405970;105995;230759;0;107
+r;9497791;209754;230759;0;147
+r;61419946;143960;230759;5;30
+r;61419947;136761;230759;5;43
+r;88937937;3564530;230759;5;43
+r;60864970;74103;230759;5;124
+r;223264122;7030645;230759;5;125
+r;61444877;283983;230759;6;14
+r;61444879;336602;230759;6;14
+r;61444881;436759;230759;6;14
+r;61444882;25578;230759;6;14
+r;61444883;60291;230759;6;14
+r;61444887;143918;230759;6;14
+r;61444889;144411;230759;6;14
+r;61444891;336603;230759;6;14
+r;61444892;336604;230759;6;15
+r;61444885;109930;230759;6;51
+r;243700367;96851;230759;8;25
+r;245346021;3762435;230759;8;25
+r;246536092;120603;230759;8;25
+r;246578111;452654;230759;8;25
+r;248666155;1936972;230759;8;25
+r;125352510;71438;230759;9;22
+r;114183717;221731;230759;9;35
+r;61557566;109533;230759;9;50
+r;211999936;8125649;230759;9;54
+r;255618196;7012425;230759;10;10
+r;205639042;151900;230759;10;27
+r;97675189;2584139;230759;10;34
+r;61435170;101176;230759;10;39
+r;61435171;217823;230759;10;42
+r;61435172;49549;230759;10;44
+r;61435173;139779;230759;10;47
+r;62020268;114327;230759;10;47
+r;80455136;16747;230759;10;47
+r;61435169;3343;230759;10;52
+r;61399900;124600;230759;13;30
+r;61399901;251694;230759;13;30
+r;61399902;43601;230759;13;30
+r;61399903;2442;230759;13;30
+r;61399904;259820;230759;13;30
+r;61451019;97571;230759;14;30
+r;61446751;1384;230759;23;21
+r;61446752;26976;230759;23;21
+r;76218871;223577;230759;23;21
+r;61446749;56101;230759;23;22
+r;97452803;157025;230759;23;22
+r;61446754;125017;230759;23;24
+r;96701699;440058;230759;23;24
+r;61446748;82844;230759;23;26
+r;61446753;53495;230759;23;26
+r;61446756;19150;230759;23;26
+r;61446750;122864;230759;23;27
+r;97452957;439630;230759;23;27
+r;76218870;97910;230759;23;31
+r;61446755;28105;230759;23;34
+r;61446757;240054;230759;23;43
+r;82209533;152552;230759;27;1
+r;216367645;117095;230759;27;1
+r;61405965;3674;230759;27;21
+r;61405971;113902;230759;27;21
+r;61405959;136076;230759;27;22
+r;61405961;214275;230759;27;22
+r;61405950;91657;230759;27;23
+r;61405957;102206;230759;27;23
+r;61405967;16033;230759;27;26
+r;61405954;50567;230759;27;29
+r;212740018;7336113;230759;27;32
+r;162579923;7030637;230759;27;100
+r;61405969;105995;230759;27;102
+r;61456805;146274;230759;28;30
+r;61456806;16033;230759;28;34
+r;14164220;165713;230759;35;31
+r;94138603;74103;230759;71;26
+r;79994801;14330;230759;115;1
+r;79994802;91691;230759;115;1
+r;79994803;28453;230759;115;1
+
+// END
