@@ -1,4 +1,13 @@
-<div class=" blue ">
-<h1>Stats</h1>
-<p>C'est excessivement énervant d'entendre quelqu'un qui mange des chips, pour celui qui n'en mange pas!</p>
-</div>
+<div class="d-flex flex-column winter-neva-gradient">
+  <div class="p-2 "><h1>Type stats</h1></div>
+
+  <div class="p-2 list-group">
+    <div *ngFor="let rel of definition.relations" class="list-group-item flex-column align-items-start definition">
+
+        <p class="mb-1">{{ rel }}</p>
+
+
+
+    </div>
+
+  </div>

@@ -18,6 +18,7 @@ export class AppComponent implements OnInit, OnDestroy {
   json_Res : any;
 
   definition : Definition;
+  liste_type : any;
 
   word: string;
 
@@ -45,17 +46,25 @@ export class AppComponent implements OnInit, OnDestroy {
 
         this.json_Res = res;
 
+            console.log(res);
 
-            // console.log(res)
             this.definition = {
               title: word,
               body: []
             };
 
+            this.liste_type = {
+              relations: []
+            }
+
             var regExp =/\(([^)]+)\)/g;
             var regExp2 =/[0-9]\./g
+            //Changer par un array dans le JSON 
+            for(let types_r in this.json_Res.rels_types_dico) {
+              this.liste_type.relations.push(types_r[0]);
+              console.log(this.json_Res.rels_types_dico.0);
 
-
+            }
 
             for(var i in this.json_Res.definition) {
 
@@ -63,7 +72,7 @@ export class AppComponent implements OnInit, OnDestroy {
                 var matches = item.match(regExp);
                 this.definition.body.push({
                     "id" : item.charAt(0),
-                    "body" : item.replace(regExp2, '');
+                    "body" : item.replace(regExp2, ''),
                     "fam" : []
                 });
                 for(var j in matches) {

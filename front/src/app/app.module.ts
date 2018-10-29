@@ -8,7 +8,7 @@ import {MotsApiService} from './mots/mots-api.service';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { DefinitionComponent } from './definition/definition.component';
 import { StatsComponent } from './stats/stats.component';
-import { TypesComponent } from './types/types.component';
+import { RelationComponent } from './relation/relation.component';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { TypesComponent } from './types/types.component';
     AppComponent,
     DefinitionComponent,
     StatsComponent,
-    TypesComponent
+    RelationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,595 @@
+
+// DUMP pour le terme 'coloscopie' (eid=174022)
+
+
+
+1. (Médecine) Examen médical du gros intestin, appelé aussi côlon.
+2. La coloscopie ou colonoscopie est l'examen visuel du côlon par l'intermédiaire d'une sonde appelée coloscope. C'est une endoscopie digestive, une méthode invasive d'exploration et d'imagerie médicale, permettant l'exploration du rectum et de la totalité du côlon jusqu'à la jonction iléo-colique (intestin grêle). La longueur de tube digestif explorée est d'environ 1,50 m.
+
+
+
+
+// les types de noeuds (Nodes Types) : nt;ntid;'ntname'
+
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;10;'n_relation'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+
+// les noeuds/termes (Entries) : e;eid;'name';type;w;'formated name' 
+
+e;174022;'coloscopie';1;16
+e;6392898;'coloscopie opératoire';1;0
+e;6383931;'procédures de chirurgie colique sous endoscopie';1;0
+e;90774;'rectoscopie';1;52
+e;6365171;'procédures de chirurgie endoscopique du colon';1;0
+e;6378509;'chirurgie endoscopique du colon';1;0
+e;102206;'médecine';1;6442
+e;6373061;'interventions chirurgicales sous coloscopie';1;0
+e;152125;'Zoologie';1;208
+e;112609;'anatomie';1;2720
+e;1934318;'coloscopie de décompression';1;0
+e;6301215;'procédures de chirurgie sous coloscopie';1;0
+e;117095;'zoologie';1;1542
+e;6290828;'endoscopie du côlon';1;0
+e;6398632;'procédures de chirurgie endoscopique colique';1;0
+e;6418612;'chirurgie endoscopique du gros intestin';1;0
+e;239128;'_COM';36;50
+e;6937002;'=colonoscopy=';1;0
+e;24847;'endoscopie';1;88
+e;319752;'coloscopie virtuelle par tomodensitométrie';1;50
+e;6527174;'procédure médicale';1;0
+e;27268;'examen';1;1376
+e;6276975;'coloscopies';1;0
+e;2349757;'coloscopie virtuelle';777;0
+e;305914;'colonoscopie';777;50
+e;2586628;'Gender:Fem';4;0
+e;146881;'Nom:Fem+SG';4;50
+e;2586629;'Number:Sing';4;0
+e;171870;'Nom:';4;50
+e;390837;'soin>164522';1;66;'soin>acte médical'
+e;4306826;'examen endoscopique';1;0
+e;6423344;'coloscopie normale';1;0
+e;6368245;'coloscopie anormale';1;0
+e;1830518;'coloscopie radiologique par imagerie volumique';1;0
+e;6359954;'coloscopie courte';1;0
+e;6309350;'coloscopie gauche';1;0
+e;151576;'_FL:6';6;50
+e;151553;'_FL:0';6;50
+e;151550;'_FL:8';6;50
+e;6800070;'=colon=';1;0
+e;143483;'côlon';1;130
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;37298;'amour';1;6776
+e;103405;'indifférence';1;464
+e;91691;'surprise';1;1064
+e;14330;'satisfaction';1;516
+e;28453;'bonheur';1;2094
+e;276096;'_INFO-WIKI-YES';36;50
+e;223172;'_POL-NEG';36;50
+e;251716;'_INFO-MONOSEMIC';36;50
+e;254876;'_POL-POS_PC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;254878;'_POL-NEG_PC';36;50
+e;2585997;'_INFO-CNRTL-NO';36;50
+e;223173;'_POL-POS';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;1638601;'rupture de la rate';1;6
+e;2928565;':r11753592';10;0
+e;3392772;':r9911189';10;0
+e;3392774;'bn:00020717n';444;0
+e;3228593;'wiki:@';444;0
+e;4240284;'dbnary:fra:__ws_1_coloscopie__nom__1';444;0
+e;6119774;'umls:C0751041';444;0
+e;6106230;'umls:C0009378';444;0
+e;2983124;'_SW';36;50
+e;48754;'endoscopique';1;50
+e;158736;'gros intestin';1;66
+e;154452;'examen médical';1;136
+e;115748;'ISSN';1;50
+e;103233;'diverticulite';1;52
+e;56396;'histologie';1;70
+e;101901;'anus';1;374
+e;17353;'Cancer';1;102
+e;21471;'radiographique';1;52
+e;22889;'intestin';1;560
+e;87987;'France';1;2584
+e;39972;'Seraing';1;50
+e;56365;'digestion';1;478
+e;62564;'rectum';1;204
+e;78347;'scanner';1;354
+e;9831192;'cancer du colon';1;0
+e;115923;'biopsie';1;72
+e;140121;'cancer';1;1962
+e;2469266;'Anus';1;0
+e;2415853;'Rectum';1;0
+e;302545;'International Standard Serial Number';777;50
+e;317854;'adénomateuse';1;50
+e;2349756;'coloscanner';1;0
+e;391759;'PMID';1;2
+e;425918;'Histologie';1;50
+e;465478;'maladies inflammatoires chroniques intestinales';777;50
+e;231761;'cancer colorectal';1;14
+e;187594;'infarctus du myocarde';1;34
+e;143112;'sonde';1;124
+e;5898917;'explosion colique';777;0
+e;5880125;'PubMed';1;0
+e;3695098;'Infarctus du myocarde';1;0
+e;146751;'Sonde';1;50
+e;164352;'polypes';1;52
+e;180228;'maladie de Crohn';1;50
+e;1664927;'midazolam';1;0
+e;305983;'colite ulcéreuse';777;50
+e;180244;'rectocolite hémorragique';1;50
+e;598036;'recto-colite hémorragique';1;0
+e;253636;'intolérance au gluten';1;32
+e;391626;'cholangite sclérosante primitive';1;50
+e;249632;'chirurgie digestive';1;6
+e;63212;'adénome';1;80
+e;238576;'faire un toucher rectal';1;50
+e;5523;'lavement';1;136
+e;275429;'cancer colo-rectal';1;50
+e;115805;'soin';1;1188
+e;317561;'tumeur maligne du rectum';1;50
+e;464280;'rectocèle';1;50
+e;6861186;'=rectocele=';1;0
+e;1840259;'syndrome d'Ogilvie';1;0
+e;315388;'tumeur intra-crânienne';1;52
+e;324882;'tumeur intracrânienne';1;52
+e;272721;'Homer Jay Simpson';777;50
+e;223831;'Homer Simpson';1;50
+e;231762;'cancer du côlon';1;8
+e;71231;'endoscope';1;70
+e;56922;'sigmoïdien';1;50
+e;157600;'intestin grêle';1;90
+e;284946;'petit intestin';1;2
+e;292578;'tumeurs cérébrales';777;50
+e;262864;'tumeur cérébrale';1;20
+e;88270;'fibroscopie';1;50
+e;295195;'pathologie hémorroïdaire';777;50
+e;295196;'maladie hémorroïdaire';777;50
+e;27983;'hémorroïdes';1;54
+e;56705;'diverticulose';1;50
+e;297792;'balantidiase';777;50
+e;80209;'laxatif';1;58
+e;92153;'antrite';1;50
+e;96927;'hémorroïde';1;52
+e;100140;'trou de balle';1;132
+e;114321;'constipation';1;90
+e;162666;'tumeur du cerveau';1;54
+e;305982;'rch';777;50
+e;178016;'apopathodiaphulatophobie';1;50
+e;61603;'balantidiose';1;50
+e;159814;'tumeur au cerveau';1;50
+e;252874;'régime sans résidu';1;50
+e;311526;'régime sans fibre';777;50
+e;265680;'cancer du cerveau';1;50
+e;312091;'lubrifiant anatomique';777;50
+e;312092;'lubrifiant sexuel';777;50
+e;312090;'lubrifiant intime';1;50
+e;313705;'insuffisance mitrale';1;4
+e;313706;'fuite mitrale';777;2
+e;313707;'régurgitation mitrale';777;50
+e;315124;'rectocolite';1;50
+e;319397;'tumeur desmoïde';1;52
+e;324857;'colite pseudo-membraneuse';1;50
+e;322354;'rectocolite ulcéro-hémorragique';1;50
+e;465479;'mici';777;50
+e;347331;'diarrhée infantile';1;50
+e;116468;'diarrhée';1;240
+e;403678;'sigmoïdienne';1;50
+e;459561;'anaux';1;50
+e;25059;'diarrhéique';1;50
+e;6195;'hémorroïdaire';1;54
+e;582554;'lavage d'intestin';777;0
+e;582555;'irrigation du colon';777;0
+e;13504;'colonique';1;50
+e;582556;'pompe à lavement';777;0
+e;209906;'visite médicale';1;56
+e;232762;'maladie inflammatoire chronique intestinale';1;2
+e;81003;'chiasse';1;114
+e;596647;'RCH';1;0
+e;249282;'diarhée';1;54
+e;790688;'cancer colorectal héréditaire sans polypose';1;0
+e;331022;'pancréatite chronique';1;50
+e;60510;'biopsique';1;50
+e;221208;'déripette';1;50
+e;1638602;'rupture de la';777;0
+e;4393515;'lavement de l'intestin';777;0
+e;1874529;'lavage de l'intestin';1;0
+e;790753;'HNPCC';1;0
+e;317549;'maladies inflammatoires chroniques de l'intestin';1;50
+e;1735643;'cancer du rectum';1;0
+e;463700;'tumeurs du système nerveux central';1;50
+e;1827481;'angiodysplasie';1;0
+e;1858749;'Le syndrome d'Ogilvie';777;0
+e;1859201;'endoscopie par capsule';777;0
+e;1852627;'vidéocapsule';1;0
+e;180193;'balantidose';1;50
+e;291825;'melæna';777;50
+e;149104;'méléna';1;52
+e;2349502;'carcinome colorectal';1;0
+e;149100;'mélaena';1;50
+e;67325;'melaena';1;50
+e;1852797;'adénomateux colorectaux';777;0
+e;1852798;'polype adénomateux';777;0
+e;1836401;'iléite de Crohn';1;0
+e;331457;'syndrome de Cowden';1;50
+e;394073;'maladie de Cowden';1;50
+e;3275649;'syndrome IPEX';1;0
+e;4340441;'hématochézie';1;0
+e;5534862;'Mise en garde médicale';777;0
+e;38713;'polype';1;74
+e;315090;'polypose';1;50
+e;2040146;'dépistages';2;0
+e;5561085;'prévention de certains cancers';777;0
+e;5561453;'polype festonné traditionnel';777;0
+e;5573292;'rupture ou fracture de la rate';777;0
+e;331104;'Clostridium difficile';1;50
+e;5835742;'iset';777;0
+e;5898725;'colite collagène';777;0
+e;88895;'trichocéphalose';1;50
+e;300099;'trichiurose';777;50
+e;10158439;'vice-président des États-Unis';777;0
+e;10158440;'VPOTUS';777;0
+e;10932824;'Ipsen';1;0
+e;10831212;'ipsen';777;0
+e;215326;'alliage à mémoire de forme';1;50
+e;11055941;'Clostridioides difficile';777;0
+
+// les types de relations (Relation Types) : rt;rtid;'trname';'trgpname';'rthelp' 
+
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;5;'r_syn';'synonyme';Il est demandé d'énumérer les synonymes ou quasi-synonymes de ce terme.
+rt;6;'r_isa';'générique';Il est demandé d'énumérer les GENERIQUES/hyperonymes du terme. Par exemple, 'animal' et 'mammifère' sont des génériques de 'chat'.
+rt;8;'r_hypo';'spécifique';Il est demandé d'énumérer des SPECIFIQUES/hyponymes du terme. Par exemple, 'mouche', 'abeille', 'guêpe' pour 'insecte'.
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;14;'r_patient';'action>patient';Le patient (qu'on appelle aussi l'objet) est l'entité qui subit l'action. Par exemple dans - Le chat mange la souris -, le patient est la souris. Des patients typiques de manger peuvent être 'viande', 'légume', 'pain', ...
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;26;'r_patient-1';'patient-1';(inverse de r_patient) Que peut-on faire à cet OBJET. Pour 'pomme', on pourrait avoir 'manger', 'croquer', couper', 'éplucher',  etc.
+rt;27;'r_domain-1';'domaine-1';inverse de r_domain : à un domaine, on associe des termes
+rt;32;'r_sentiment';'sentiment';Pour un terme donné, évoquer des mots liés à des SENTIMENTS ou des EMOTIONS que vous pourriez associer à ce terme. Par exemple, la joie, le plaisir, le dégoût, la peur, la haine, l'amour, l'indifférence, l'envie, avoir peur, horrible, etc.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;41;'r_conseq';'conséquence';B (que vous devez donner) est une CONSEQUENCE possible de A. A et B sont des verbes ou des noms.  Exemples : tomber -> se blesser ; faim -> voler ; allumer -> incendie ; négligence --> accident ; etc.
+rt;42;'r_causatif';'cause';B (que vous devez donner) est une CAUSE possible de A. A et B sont des verbes ou des noms.  Exemples : se blesser -> tomber ; vol -> pauvreté ; incendie -> négligence ; mort --> maladie ; etc.
+rt;110;'r_diagnostique';'diagnostique';Diagnostique pour la maladie : diabète => prise de sang, rougeole => examen clinique, ...
+rt;128;'r_node2relnode';'r_node2relnode';Relation entre un noeud (quelconque) et un noeud de relation (type = 10) - permet de rendre le graphe connexe même avec les annotations de relations
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;666;'r_aki';'r_aki';(TOTAKI) equivalent pour TOTAKI de l'association libre
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+
+// les relations sortantes : r;rid;node1;node2;type;w 
+
+r;120746837;174022;6392898;0;28
+r;120746839;174022;6383931;0;30
+r;10907387;174022;90774;0;59
+r;120746831;174022;6365171;0;31
+r;120746835;174022;6378509;0;30
+r;15337404;174022;102206;0;30
+r;120746829;174022;6373061;0;30
+r;15719351;174022;152125;0;29
+r;15387018;174022;112609;0;30
+r;31496511;174022;1934318;0;9
+r;120746841;174022;6301215;0;32
+r;15379263;174022;117095;0;35
+r;120315894;174022;6290828;0;35
+r;120746833;174022;6398632;0;29
+r;120746812;174022;6418612;0;34
+r;24127322;174022;239128;0;1000000
+r;200497584;174022;6937002;0;26
+r;11717232;174022;24847;0;41
+r;11845367;174022;319752;0;53
+r;121678815;174022;6527174;0;26
+r;11473846;174022;27268;0;51
+r;120315889;174022;6276975;0;32
+r;34745868;174022;2349757;0;8
+r;59995152;174022;305914;0;24
+r;490047;174022;112609;3;27
+r;8828690;174022;102206;3;29
+r;498362;174022;117095;3;35
+r;15663438;174022;152125;3;-20
+r;121092118;174022;6527174;3;26
+r;113971127;174022;2586628;4;35
+r;113897716;174022;146881;4;35
+r;113971508;174022;2586629;4;28
+r;637394;174022;171870;4;41
+r;226228573;174022;6937002;5;25
+r;59503596;174022;305914;5;42
+r;9911189;174022;27268;6;39
+r;27585466;174022;390837;6;2
+r;96367765;174022;4306826;6;1
+r;9924207;174022;24847;6;42
+r;219558867;174022;6423344;8;40
+r;11753923;174022;319752;8;62
+r;219558862;174022;6368245;8;38
+r;31442074;174022;1934318;8;56
+r;219558869;174022;6392898;8;42
+r;219558870;174022;1830518;8;43
+r;219558864;174022;6359954;8;43
+r;34701822;174022;2349757;8;57
+r;219558866;174022;6309350;8;37
+r;9759469;174022;90774;8;53
+r;122747484;174022;6423344;11;27
+r;9040020;174022;319752;11;148
+r;34700919;174022;2349757;11;52
+r;31409826;174022;1934318;11;59
+r;29951142;174022;1830518;11;32
+r;2048313;174022;151576;12;22
+r;1866436;174022;151553;12;13
+r;2048312;174022;151550;12;21
+r;166730254;174022;6800070;14;30
+r;25676916;174022;143483;14;30
+r;90810181;174022;3576104;18;32
+r;89946270;174022;3575927;18;35
+r;114707263;174022;174022;19;43
+r;33495754;174022;37298;32;-5
+r;72980138;174022;103405;32;23
+r;33968949;174022;91691;32;26
+r;33968948;174022;14330;32;55
+r;33592646;174022;28453;32;18
+r;291888558;174022;276096;36;25
+r;9149270;174022;223172;36;46
+r;96152015;174022;251716;36;27
+r;9149261;174022;254876;36;42
+r;26712655;174022;254877;36;52
+r;9271476;174022;254878;36;6
+r;86997440;174022;2585997;36;60
+r;9127357;174022;223173;36;320
+r;26284119;174022;241794;36;403
+r;76698301;174022;1638601;41;26
+r;71802787;174022;2928565;128;1
+r;86997694;174022;3392772;128;1
+r;86997701;174022;3392774;444;30
+r;78022535;174022;3228593;444;27
+r;94592934;174022;4240284;444;1
+r;119423110;174022;6119774;444;26
+r;119423111;174022;6106230;444;27
+r;74023594;174022;2983124;555;765
+r;1673666;174022;143483;666;5
+r;1673668;174022;112609;666;1
+r;1779286;174022;24847;666;1
+r;1779287;174022;48754;666;1
+r;1673667;174022;158736;666;1
+r;1673664;174022;102206;666;1
+r;1673665;174022;27268;666;4
+r;1673669;174022;154452;666;1
+r;222209271;174022;115748;777;10
+r;7922560;174022;103233;777;10
+r;7922541;174022;56396;777;10
+r;7922532;174022;101901;777;10
+r;7922547;174022;17353;777;10
+r;7922563;174022;21471;777;10
+r;7922535;174022;22889;777;10
+r;7922526;174022;24847;777;10
+r;16307130;174022;87987;777;10
+r;7922572;174022;39972;777;10
+r;16307121;174022;56365;777;10
+r;7922529;174022;62564;777;10
+r;7922566;174022;78347;777;10
+r;222209264;174022;9831192;777;10
+r;7922538;174022;115923;777;10
+r;7922549;174022;140121;777;10
+r;76752585;174022;2469266;777;10
+r;76752583;174022;2415853;777;10
+r;222209270;174022;302545;777;10
+r;16307127;174022;317854;777;10
+r;76752587;174022;2349756;777;10
+r;222209275;174022;391759;777;10
+r;16307124;174022;425918;777;10
+r;18658119;174022;465478;777;10
+r;7922554;174022;231761;777;10
+r;16307133;174022;187594;777;10
+r;7922520;174022;143112;777;10
+r;222209266;174022;5898917;777;10
+r;222209274;174022;5880125;777;10
+r;113897719;174022;3695098;777;10
+r;7922519;174022;146751;777;10
+r;16307118;174022;158736;777;10
+r;7922557;174022;164352;777;10
+r;7922544;174022;180228;777;10
+r;222209261;174022;1664927;777;10
+
+// les relations entrantes : r;rid;node1;node2;type;w 
+
+r;96367764;4306826;174022;0;1
+r;122747485;6423344;174022;0;1
+r;27585465;390837;174022;0;2
+r;29951143;1830518;174022;0;8
+r;9911188;27268;174022;0;17
+r;9924206;24847;174022;0;22
+r;15261824;102206;174022;0;22
+r;55147253;305983;174022;0;26
+r;55388995;180244;174022;0;26
+r;68230983;598036;174022;0;26
+r;120746832;6365171;174022;0;26
+r;2313816;253636;174022;0;27
+r;13069157;391626;174022;0;27
+r;2405406;249632;174022;0;28
+r;15387017;112609;174022;0;28
+r;15579916;152125;174022;0;29
+r;120746830;6373061;174022;0;29
+r;120746842;6301215;174022;0;29
+r;3110623;63212;174022;0;30
+r;59503595;305914;174022;0;30
+r;120746836;6378509;174022;0;30
+r;120746838;6392898;174022;0;30
+r;200497585;6937002;174022;0;30
+r;120315895;6290828;174022;0;31
+r;120746811;6418612;174022;0;31
+r;15379262;117095;174022;0;32
+r;120746834;6398632;174022;0;32
+r;34702976;2349756;174022;0;35
+r;120746840;6383931;174022;0;35
+r;120315888;6276975;174022;0;41
+r;9759468;90774;174022;0;53
+r;34700920;2349757;174022;0;53
+r;31409827;1934318;174022;0;57
+r;94086347;238576;174022;0;57
+r;13005389;5523;174022;0;61
+r;1866435;231761;174022;0;70
+r;14033215;275429;174022;0;70
+r;9605482;319752;174022;0;181
+r;215703621;6937002;174022;5;35
+r;59488904;305914;174022;5;37
+r;219558865;6309350;174022;6;40
+r;219558868;6392898;174022;6;41
+r;219558863;6359954;174022;6;41
+r;219558861;6368245;174022;6;41
+r;71609058;1830518;174022;6;42
+r;122747486;6423344;174022;6;46
+r;34700921;2349757;174022;6;47
+r;31409828;1934318;174022;6;53
+r;2375447;90774;174022;6;87
+r;11753592;319752;174022;6;140
+r;96357746;4306826;174022;8;27
+r;98114385;115805;174022;8;30
+r;27585075;390837;174022;8;60
+r;3145876;24847;174022;8;66
+r;2048311;27268;174022;8;101
+r;119777558;6276975;174022;19;34
+r;114707263;174022;174022;19;43
+r;16033477;143483;174022;26;30
+r;154250823;6800070;174022;26;30
+r;15127166;102206;174022;27;22
+r;15180125;117095;174022;27;24
+r;15184286;112609;174022;27;26
+r;15529615;152125;174022;27;29
+r;76658838;1638601;174022;42;31
+r;28515614;317561;174022;110;27
+r;106214273;464280;174022;110;29
+r;215501097;6861186;174022;110;29
+r;13094879;180244;174022;110;31
+r;13395082;305983;174022;110;31
+r;31409907;1840259;174022;110;31
+r;68230929;598036;174022;110;31
+r;25094768;180228;174022;110;36
+r;3217838;101901;174022;666;1
+r;13408532;315388;174022;777;2
+r;13397128;324882;174022;777;6
+r;5582610;101901;174022;777;9
+r;3853039;272721;174022;777;10
+r;3853068;223831;174022;777;10
+r;3940516;231762;174022;777;10
+r;3940530;275429;174022;777;10
+r;4619485;71231;174022;777;10
+r;4642144;143483;174022;777;10
+r;4642145;56922;174022;777;10
+r;4972176;180228;174022;777;10
+r;5112984;157600;174022;777;10
+r;5113003;284946;174022;777;10
+r;5789341;5523;174022;777;10
+r;6541347;292578;174022;777;10
+r;6541348;262864;174022;777;10
+r;6619233;88270;174022;777;10
+r;6760045;24847;174022;777;10
+r;6791277;295195;174022;777;10
+r;6791278;295196;174022;777;10
+r;6791279;27983;174022;777;10
+r;7005398;56705;174022;777;10
+r;7052413;297792;174022;777;10
+r;7224249;80209;174022;777;10
+r;7324247;92153;174022;777;10
+r;7364976;96927;174022;777;10
+r;7393770;100140;174022;777;10
+r;34700614;2349757;174022;777;10
+r;7520042;114321;174022;777;10
+r;7590809;154452;174022;777;10
+r;7882104;162666;174022;777;10
+r;7928339;180244;174022;777;10
+r;7928340;305982;174022;777;10
+r;7928341;305983;174022;777;10
+r;7935735;178016;174022;777;10
+r;7944138;61603;174022;777;10
+r;7985859;159814;174022;777;10
+r;8470945;252874;174022;777;10
+r;8470946;311526;174022;777;10
+r;8491475;265680;174022;777;10
+r;8525868;312091;174022;777;10
+r;8525869;312092;174022;777;10
+r;8525870;312090;174022;777;10
+r;8807523;313705;174022;777;10
+r;8807524;313706;174022;777;10
+r;8807525;313707;174022;777;10
+r;8834154;315124;174022;777;10
+r;8893352;115923;174022;777;10
+r;9029025;319397;174022;777;10
+r;9372362;324857;174022;777;10
+r;16433257;322354;174022;777;10
+r;16408881;465478;174022;777;10
+r;16408882;465479;174022;777;10
+r;16978687;347331;174022;777;10
+r;16978683;116468;174022;777;10
+r;17313630;403678;174022;777;10
+r;18722170;598036;174022;777;10
+r;17699588;459561;174022;777;10
+r;17902398;25059;174022;777;10
+r;17962975;6195;174022;777;10
+r;18243259;582554;174022;777;10
+r;18243260;582555;174022;777;10
+r;18243261;13504;174022;777;10
+r;18243262;582556;174022;777;10
+r;18423348;209906;174022;777;10
+r;18465944;232762;174022;777;10
+r;18712817;81003;174022;777;10
+r;18722169;596647;174022;777;10
+r;18827114;249282;174022;777;10
+r;19942629;790688;174022;777;10
+r;21437737;331022;174022;777;10
+r;23295220;60510;174022;777;10
+r;25684378;221208;174022;777;10
+r;25860810;1638602;174022;777;10
+r;99411137;4393515;174022;777;10
+r;99411136;1874529;174022;777;10
+r;28273652;790753;174022;777;10
+r;28484605;317549;174022;777;10
+r;28515521;1735643;174022;777;10
+r;28898931;463700;174022;777;10
+r;29898253;1827481;174022;777;10
+r;30043273;1858749;174022;777;10
+r;30127727;1859201;174022;777;10
+r;30127728;1852627;174022;777;10
+r;30907146;180193;174022;777;10
+r;31845398;291825;174022;777;10
+r;31845400;149104;174022;777;10
+r;34695239;2349502;174022;777;10
+r;34700613;2349756;174022;777;10
+r;36630511;149100;174022;777;10
+r;54553914;67325;174022;777;10
+r;71601106;1852797;174022;777;10
+r;71601107;1852798;174022;777;10
+r;71626749;1836401;174022;777;10
+r;72041366;331457;174022;777;10
+r;72041367;394073;174022;777;10
+r;80097104;3275649;174022;777;10
+r;99034282;4340441;174022;777;10
+r;109900449;5534862;174022;777;10
+r;109900450;38713;174022;777;10
+r;109900451;315090;174022;777;10
+r;109952861;2040146;174022;777;10
+r;109952862;5561085;174022;777;10
+r;109967314;5561453;174022;777;10
+r;110230012;5573292;174022;777;10
+r;113221539;331104;174022;777;10
+r;113817636;5835742;174022;777;10
+r;114934362;5898725;174022;777;10
+r;231917832;88895;174022;777;10
+r;231917833;300099;174022;777;10
+r;236762798;10158439;174022;777;10
+r;236762799;10158440;174022;777;10
+r;275856078;10932824;174022;777;10
+r;270458889;10831212;174022;777;10
+r;277853521;215326;174022;777;10
+r;279998464;11055941;174022;777;10
+
+// END
